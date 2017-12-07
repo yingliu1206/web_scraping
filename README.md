@@ -6,3 +6,6 @@ visit a hompage for each school, gather all of the links that the hompage points
 Each time the program is run, the results directory is updated.
 The diagnostics folder is where data about the time it took to run the program, 
 and the accuracy of the program is stored.
+
+**Note**: This is the branch that has a threaded version of the WebScraper. Only use this code if you have
+≥4 cores on your CPU (open the python interpreter and type print(multiprocessing.cpu_count()) to check the number of useable cores), as otherwise this version may not be useful. 
