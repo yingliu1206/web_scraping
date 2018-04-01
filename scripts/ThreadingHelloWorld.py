@@ -5,7 +5,7 @@ import time
 def worker(num):
     """thread worker function"""
     print("Hello from thread %s (process starting)" % num)
-    time.sleep(num)
+    time.sleep(multiprocessing.cpu_count()-num)
     print("Goodbye from thread %s (process ending)" % num)
     return
 
@@ -16,3 +16,6 @@ if __name__ == '__main__':
         p = multiprocessing.Process(target=worker, args=(i,))
         jobs.append(p)
         p.start()
+    for p in jobs:
+        p.join()
+
