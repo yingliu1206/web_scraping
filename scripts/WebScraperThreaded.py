@@ -6,6 +6,7 @@ import sys
 import time
 import traceback
 from sys import platform
+from unicodedata import normalize
 
 'Driver'
 from selenium import webdriver
@@ -207,6 +208,8 @@ class Link(object):
         [s.extract() for s in soup(['style', 'script', 'head', 'title', 'meta', '[document]'])]
         visible_text = soup.getText(random_string).replace("\n", "")
         visible_text = visible_text.split(random_string)
+        visible_text = list(normalize("NFKC", elem.replace("\t", "")) for elem in visible_text.split(random_string))
+
         self.text = "\n".join(list(filter(lambda vt: vt.split() != [], visible_text)))
 
     def click(self, driver) -> bool:
