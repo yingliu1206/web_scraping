@@ -1,0 +1,117 @@
+        <style>            .dropdown-toggle:hover + .dropdown-menu { display:block; }            .navbar-header:hover + .collapse, .collapse:hover { display: block; }            .navbar-nav .dropdown-toggle:hover > .dropdown-menu { position: static; float: none; width: auto; margin-top: 0; background-color: transparent; -webkit-box-shadow: none; box-shadow: none; border: none; }            .dropdown-menu:hover { display: block; }        </style>    
+English
+Español
+Middle School
+High School
+Quest Home
+Sobre nosotros
+Expect More Video
+Historia
+Misión
+Visión
+Valores Fundamentales
+Preguntas Más Frecuentes
+Promesa
+Información Sobre Las Escuelas Autónomas
+Reporte Anual
+At A Glance Report Card
+Boletines
+Notas de Prensa
+Tablero
+Miembros
+Las Agendas de Reuniones
+Acta de la Reunión
+Políticas
+FOIA
+Empleo
+Aberturas
+Solicitud
+Comunidad
+¿Por qué Misiones
+Cómo Aplicar
+Personal
+Secure Site
+Welcome to Quest
+Dear Parents, Students, and Community Members,
+Welcome to the 2017-2018 school year!  There are many exciting changes that will be taking place this year, not the least of which is our move to a balanced calendar, making our first full day of school, Tuesday, August 1. A balanced calendar is the exact same number of school days we have always had, they are simply more spaced out which results in more frequent breaks throughout the year, and a slightly shorter summer break. Being a charter school, Quest can, and is expected to try new, innovative and cutting-edge ideas. Our ultimate goal is outstanding academic achievement and ensuring our students are fully prepared for college and careers. We truly believe moving to a balanced calendar will result in higher retention of student learning, higher test scores, a higher attendance rate and fewer tardies, less teacher stress and turnover, increased staff communication and planning, and increased positive school culture.
+A second exciting change is the implementation of career academies at Quest High School. The career academies will take our high school students on a deep dive in a field of interest. All extra-curriculars, clubs and courses will be woven through the academies, providing our students with several hands-on, experiential learning opportunities throughout their high school years.
+Finally, we are also excited to announce the launch of the Summit Learning pilot in our 6th grade.  This very personalized approach to learning is going to be life changing for our students. We hope you will come to see learning happening in a very unique, one-to-one, personalized and flexible environment!
+If you are a community member or prospective parent and would like to visit us, please call. We would love to have our students give you a tour and tell you about their school. If you are a parent, I encourage you to fully participate in your child’s education by having a presence at school functions, volunteering at school, etc. We have an aggressive goal of having more than 75% parental involvement and we need your help!  Together, we can do amazing things for our scholars! 
+I wish you all the best this year.  We know that you have a choice in your child’s education, and we feel honored that you chose us.  Together we are on a “Quest to be the best”!  Welcome and enjoy the journey!
+Sincerely,
+Nicole Couri Wood, Ph.D.
+ Executive Director
+ Quest Charter Academy
+Read More
+Preguntas Más Frecuentes
+La traducción de esta página aún no está disponible en Español. Esperámos tener la traducción en Español en un futuro próximo. Para su conveniencia, la versión en Inglés se muestra abajo.
+Do families pay tuition for their child to attend Quest?
+No, there is no tuition to attend Quest. We are a public school and, much like other public schools, there are annual school fees, but no tuition.
+Can my student take a test to get enrolled?
+No. Each year there is an open application period when families who live within Peoria Public School District 150 boundaries and who have students who will be in 5th-11th grade in the next school year may submit an application for enrollment. Then, a public lottery is held where every name is drawn at random for openings in each grade level. When the open seats are filled, names continue to be drawn to compile a waiting list.
+Are students required to wear uniforms?
+Yes, all Quest students where a uniform. Quest Middle School students wear either an orange or blue polo shirt with the Quest logo and navy blue, black or khaki pants. Quest High School students wear either an orange or blue oxford shirt with the Quest logo and a tie and navy blue, black or khaki pants.
+Do you provide bus transportation?
+Yes, Quest does offer bus transportation for its students.
+What is your curriculum like?
+Quest is proud to offer a rigorous and challenging curriculum that has been uniquely designed to prepare students for high academic achievement in successive schooling environments. Our goal is to graduate students who have not only had the opportunity to achieve academic excellence, but who have also acquired the knowledge and skills necessary to thrive in high school, college and beyond.
+Although we focus on science, technology, engineering and math, we teach all other subjects. We educate our students as a whole, and provide our students with many opportunities beyond academics to increase their engagement in the school. It is our goal to develop scholars to be self-motivated, creative, critical thinkers and life-long learners who are productive contributors to the global community in the 21st century.
+Our curriculum includes Project Lead The Way (PLTW), which empowers students to develop and apply in-demand, transportable skills by exploring real-world challenges. 
+Through Gateway To Technology (GTT) at the middle school level and PLTW at the high school level, students not only learn technical skills, but also learn to solve problems, think critically and creatively, communicate, and collaborate. 
+PLTW is designed to serve high school students of diverse backgrounds—from those 
+already interested in STEM-related fields, to those who are more inspired by the application of STEM than by traditional math and science courses. PLTW’s comprehensive curriculum emphasizes critical thinking, creativity, innovation, and real-world problem solving. The PLTW classroom is an engaging and thought-provoking place, where students develop critical-thinking skills through hands-on, project-based learning that prepares them to take on real-world challenges. They have the opportunity to create, design, and build things like robots and cars—applying what they’re learning in math and science to the world’s grand challenges.
+GTT's cutting-edge program addresses the interest and energy of middle school students, while incorporating national standards in math, science and technology. GTT is "activity oriented" to show students how technology is used in engineering to solve everyday problems. The five instructional units excite and motivate students to use their imaginations and teach them to be creative and innovative, while gaining the skills they need to develop, produce and use products and services. The Gateway To Technology curriculum provides project-based learning—a hands-on approach--that is exciting and fun for the full range of students in today's grade 6 – 8 classrooms and that relates technology to students' daily lives. It also promotes communication and collaboration by emphasizing a teaming approach in the instructional units. This approach utilizes the strengths of each team member to accomplish the goals of the project, while offering students learning challenges at all ability levels. The math, science, and technology integrated GTT program helps students develop and hone skills in middle school that enable them to enter the high school program with foundation knowledge and skills for success in pre-engineering. Although not intended as an introduction to the PLTW pre-engineering high school program, many schools report improved interest in the high school program because of Gateway To Technology.
+The PLTW sequence of courses which, when combined with traditional mathematics and science courses in high school, introduces students to the scope, rigor and discipline of engineering prior to entering college. However, even students who don’t pursue engineering benefit greatly from the knowledge and logical thought processes that result from taking some or all of the courses provided in the curriculum. The GTT curriculum provides project-based learning and promotes communication and collaboration by emphasizing a teaming approach in the instructional units that incorporate national standards in math, science and technology. 
+We pride ourselves on knowing every child’s strengths and opportunities for improvement. Data from STAR360 math and reading assessments as well as the data from the NWEA assessment provides a wealth of information about each student. Grade level teams use this information to develop individual learning plans (ILPs) for students. The Individual learning plan is a personalized plan tailored for each student to address areas in need of improvement. Once the specific goal is developed, grade level teams determine what resources and tools students need in order to be prepared for a successful pathway in both academics and social emotional learning. Students’ Individualized Learning Plan (ILP) helps them fill-in gaps their educational skills or accelerate their learning to higher levels and, through daily custom learning time (CLT), we’ll help them meet their unique needs. Students also have access to 1:1
+Technology, meaning every student has a Chromebook to use all day, every day. We’ve partnered with a number of online resources that customize paths for students,
+so they’ll have exactly what they need to be successful. In addition, they’ll be able to participate in clubs and tutoring built into our school day.
+Are your teachers fully certified?
+The Federal No Child Left Behind Act requires that all classroom teachers must be highly qualified. We attempt, in all cases, to employ highly qualified teachers who meet the requirements of the No Child Left Behind Act; however, state law does permit a small percentage of teaching staff to be hired who are not fully certified but are otherwise exceptionally qualified to teach specific subjects based on education, experience or content knowledge. In most cases, these teachers are working toward certification. We conduct an extensive interview and background check process with all of our teachers to ensure that they meet or exceed state requirements. We believe teachers are the most important component of a school and select our teachers through a comprehensive selection process.
+I’ve heard that charter school students don’t perform as well academically as their traditional public school peers. Is this the case at Quest?
+Actually, it’s quite the contrary. Student achievement varies from school to school based on how long the school has been in operation, how long the students have attended, and the effort students put forth, but results of MAP (measurement of academic progress) assessments show that many of our students are outperforming their peers at their local public school districts. As a matter of fact, our data shows that the longer students remain at Quest, the better they perform.
+I’ve heard that charter schools “cherry pick” their students?
+This is one of many misconceptions about charter schools. The truth is, parents and students choose charter schools. We are open to all students regardless of race, socio-economic status and prior academic achievement. We are proud to serve a very diverse student body.
+What is your discipline policy?
+Our goal is to address the needs of students through a quality education program. To be effective and to fulfill this goal, we believe students need a positive, safe and orderly school environment in which learning can take place without disruption. With demographics that mirror those of our public school system, we experience the same challenges including in the area of discipline. It is our belief that students who do not obey the rules of good conduct are interfering with the learning process and safety of others, as well as minimizing their own opportunities to learn. We implement a school-wide discipline policy that is communicated to parents and students before the school year begins, and is also included in the student handbook.
+                                        Quest Charter Academy
+                                        2503 N. University Ave. Peoria, IL 61604
+                                        Phone: (309) 402-0030
+                                        Fax: (309) 685-3001
+info@questpeoria.org
+Sobre nosotros
+Tablero
+Empleo
+Comunidad
+Personal
+Newsletter
+Skyward
+Donate
+Calendar
+                                        Quest High School
+                                        2503 N. University Ave. Peoria, IL 61604
+                                        Phone: (309) 402-0030
+                                        Fax: (309) 685-3001
+info@questpeoria.org
+Sobre nosotros
+Académica
+Universidad/Carrera
+Ocupaciones
+Atletismo
+Familias
+Los Estudiantes
+                                        Quest Middle School
+                                        2612 N. Bootz Ave. Peoria, IL 61604
+                                        Phone: (309) 222-8719
+                                        Fax : (309) 685-8801
+info@questpeoria.org
+Sobre nosotros
+Académica
+Ocupaciones
+Atletismo
+Familias
+Los Estudiantes
+Web Development and Hosting by 
+Stellar Systems, Inc.
+Site Map
+Sign in
+Signed in

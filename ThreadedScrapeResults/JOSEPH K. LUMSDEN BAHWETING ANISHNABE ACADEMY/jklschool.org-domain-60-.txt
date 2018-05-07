@@ -1,0 +1,265 @@
+Account Login
+Register
+United States
+Michigan
+UPR
+Eastern Upper Peninsula ISD
+ Joseph K. Lumsden Bahweting Anishnabe Academy
+loading data... 
+District Name 
+District Number 
+Phone 
+City 
+County 
+Website 
+Joseph K. Lumsden Bahweting Anishnabe Academy
+17901
+906-635-5055
+Sault Sainte Marie
+Chippewa County
+http://www.jklschool.org
+Webmaster Tools
+Budget and Salary / Compensation Transparency Reporting
+                                            Fiscal Year 2017-2018 Board Approved Budget                                            
+							  		2017-18 General Fund Budget Amendment
+							  		2017-18 Adopted School Service Fund Budget
+							  		2017-18 Adopted General Fund Budget
+							  		2017-18 Adopted Capital Projects Fund
+                                            Fiscal Year 2016-2017 Board Approved Budget                                            
+							  		2016-17 School Service Fund Adopted Budget 
+							  		2016-17 General Fund Budget Amendment 2
+							  		2016-17 General Fund Budget Amendment 1
+							  		2016-17 General Fund Adopted Budget
+							  		2016-17 Final School Service Fund 
+							  		2016-17 Final School Service Fund 
+							  		2016-17 Final General Fund Budget
+							  		2016-17 Final Capital Projects Fund
+							  		2016-17 Capital Projects Fund Amendment 2
+							  		2016-17 Capital Projects Fund Adopted Budget
+                                            Fiscal Year 2015-2016 Board Approved Budget                                            
+							  		2015-16 School Service Fund Amendment
+							  		2015-16 General Fund Amendment
+							  		2015-16 Capital Projects Fund Amendment
+							  		2015-16 Adopted School Service Fund Budget
+							  		2015-16 Adopted General Fund Budget
+							  		2015-16 Adopted Capital Projects Fund Budget
+                                            Fiscal Year 2014-2015 Board Approved Budget                                            
+							  		2014-2015 General Fund Amended Budget 
+							  		2014-2015 Capital Projects Amended Budget
+							  		2014-2015 Adopted School Service Fund
+							  		2014-2015 Adopted General Fund
+							  		2014-15 School Service Fund Final Amendment
+							  		2014-15 General Fund Final Amendment
+							  		2014-15 Capital Projects Fund Final Amendment
+                                            Fiscal Year 2013-2014 Board Approved Budget                                            
+							  		2013-2014 Final School Service Fund Budget
+							  		2013-2014 Final General Fund Budget
+							  		2013-2014 Final Capital Projects Fund Budget
+                                            Personnel Expenditures                                            
+							  		2016-17 Personnel Expenditures
+							  		2015-2016 Personnel Expenditures
+							  		2014-2015 Personnel Expenditures
+							  		2013-2014 Personnel Expenditures
+							  		2012-2013 Personnel Expenditures
+                                            Current Operating Expenditures                                            
+							  		2016-17 Current Operating Expenditures
+							  		2015-2016 Current Operating Expenditures
+							  		2014-2015 Operating Expenditures 
+							  		2013-2014 Operating Expenditures
+							  		2012-2013 Operating Expenditures
+                                            Current Bargaining Agreements                                            
+							  		Collective Bargaining Agreement
+                                            Employer Sponsored Health Care Plans                                            
+							  		2014-2015 Health Care Benefit Plan
+							  		2015-2016 Employer Sponsored Health Plan
+							  		2016-2017 Employer Sponsored Health Plan
+							  		2017-18 Employer Sponsored Health Plan
+                                            Audited Financial Statements                                            
+							  		June 30, 2013 Financial Audit
+							  		June 30, 2014 Financial Audit
+							  		June 30, 2015 Financial Audit 
+							  		June 30, 2016 Financial Audit
+							  		June 30, 2017 Financial Audit
+                                            Medical Benefit Plan Bids                                            
+							  		Health Insurance Proposal 2014 - Employee Benefits Agency, Inc.
+							  		Health Insurance Proposal 2014- BCBS
+							  		Medical Benefit Plan Bid 2017
+                                            Procurement Policy                                            
+							  		Procurement Policy
+                                                Expense Reimbursement Policy                                                
+							  		Reimbursement Policy
+                                                Accounts Payable Check Register                                                
+                                    Fiscal Year 2017                                    
+														2016-17 Check Register
+                                    Fiscal Year 2016                                    
+														2015-16 Check Register
+                                    Fiscal Year 2015                                    
+														2014-15 Check Register
+                                                Employee Compensation Information                                                
+							  		Employee Compensation 2017
+							  		2016 Employee Compensation
+                                                District Paid Association Dues                                                
+							  		2016-17 District Paid Association Dues
+							  		2015-16 District Paid Association Dues
+							  		2014-15 District Paid Association Dues
+							  		2013-14 District Paid Association Dues
+                                                District Paid Lobbying Costs                                                
+							  		2016-17 Lobbying Costs
+                                                Approved Deficit Elimination Plan                                                
+							  		Deficit Elimination Plan
+                                                District Credit Card Information                                                
+                                    Fiscal Year 2018                                    
+														District Credit Card Information
+                                                District Paid Out-of-State Travel Information                                                
+							  		JKL Bahweting Out-of-State Travel Information
+							  		2016-2017 District Paid Out-of-State Travel
+							  		2015-16 District Paid Out of State Travel
+                                                MI School Data                                                
+							  		MI School Data
+                                                Educator Evaluation Systems Postings and Assurances                                                
+							  		Administrator Evaluation Tool
+							  		Education Evaluation
+ Multi-year General Fund                                Data 
+loading data... 
+Year 
+Data
+Status 
+Indicator
+Score  
+Enrollment
+Foundation Allowance  
+Revenues
+Expenditures
+Fund Balance  
+2018
+Budget
+1
+536
+$7,631
+$10,100,812
+$10,390,812
+$4,102,015
+2016
+Historic
+1
+512
+$7,391
+$9,683,694
+$9,424,298
+$4,360,812
+2015
+Historic
+2
+490
+$7,126
+$8,831,589
+$8,597,134
+$4,101,416
+2014
+Historic
+2
+463
+$7,026
+$8,047,019
+$7,974,960
+$3,866,961
+2013
+Historic
+1
+478
+$6,966
+$8,022,875
+$8,246,722
+$3,794,904
+2012
+Historic
+1
+461
+$6,846
+$8,226,333
+$8,098,601
+$4,018,749
+2011
+Historic
+0
+459
+$7,316
+$8,001,029
+$7,841,742
+$3,891,017
+2010
+Historic
+0
+465
+$7,316
+$8,060,926
+$7,621,177
+$3,731,726
+2009
+Historic
+0
+437
+$7,316
+$7,343,570
+$7,251,193
+$3,291,976
+2008
+Historic
+1
+402
+$7,204
+$7,074,860
+$6,956,147
+$3,199,595
+2007
+Historic
+344
+$7,085
+$5,877,233
+$5,611,436
+$3,080,879
+Citizens' Reports
+Revenues & Expenditures
+Where                                                    the Money Comes From
+How                                                    the Money is Spent
+How                                                    My PSA Compares
+How We                                                    Have Managed Our Resources
+Revenues                                                    & Expenditures per Student
+Personnel                                                        Expenditures
+Personnel                                                        Expenditures (Summary)
+Statement of Position
+Components                                                    of Fund Equity
+Health & Safety Information
+Safety                                                    Drill Reports
+Fiscal Distress Indicator Factors
+Enrollment                                                        Growth (percent change)
+Operating                                                        Results
+Size                                                        of Fund Balance
+Foundation                                                        Allowance (percent change)
+Miscellaneous Reports
+Enrollment                                                    (FTE)
+Taxable                                                    Value Change
+Millage                                                        Rate Trends
+MPSERS Rate Compared to                                                            Foundation Allowance
+                © 2010 - 2018 Munetrix, LLC                / 
+Terms of                    Use 
+                / 
+Privacy                    Policy
+Home
+ |                
+About
+ |                
+Pricing
+ |                
+Blog
+ |                
+Contact
+Notifications
+ Automatically Show New Notifications
+Close
+Loading...    
+Report a bug
+Send us an idea
+Comments / Questions
+Praise
+Request training

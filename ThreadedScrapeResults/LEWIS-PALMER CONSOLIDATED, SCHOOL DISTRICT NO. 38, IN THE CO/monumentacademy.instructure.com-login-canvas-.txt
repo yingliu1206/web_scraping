@@ -1,0 +1,20 @@
+  <div role="alert" class="ic-flash-static ic-flash-error">    <div class="ic-flash__icon" aria-hidden="true">      <i class="icon-warning"></i>    </div>    <h1>You need to have JavaScript enabled in order to access this site.</h1>  </div>
+Close
+        Parent of a Canvas User?      
+        Click Here For an Account      
+                Browse courses              
+              Log In            
+Username
+Password
+Stay signed in
+Forgot Password?
+                  Log In                
+              Enter your Username and we'll send you a link to change your password.            
+                Username              
+Back to Login
+                  Request Password                
+Help
+Privacy policy
+Acceptable Use Policy
+Facebook
+Twitter

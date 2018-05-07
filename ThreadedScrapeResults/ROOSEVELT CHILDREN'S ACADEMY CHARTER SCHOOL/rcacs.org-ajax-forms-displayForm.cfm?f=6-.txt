@@ -1,0 +1,10 @@
+Parent Contact Form
+Have a question or a concern? Please fill out the fields below.
+Parent email address
+	Please enter your email address
+txt_19
+Parent phone number
+	Please enter your phone number
+txt_20
+Please enter a detailed explanation of your concern or submit your question below.
+txt_18

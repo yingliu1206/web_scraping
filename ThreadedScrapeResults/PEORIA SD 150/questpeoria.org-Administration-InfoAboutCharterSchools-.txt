@@ -1,0 +1,122 @@
+        <style>            .dropdown-toggle:hover + .dropdown-menu { display:block; }            .navbar-header:hover + .collapse, .collapse:hover { display: block; }            .navbar-nav .dropdown-toggle:hover > .dropdown-menu { position: static; float: none; width: auto; margin-top: 0; background-color: transparent; -webkit-box-shadow: none; box-shadow: none; border: none; }            .dropdown-menu:hover { display: block; }        </style>    
+English
+Español
+Middle School
+High School
+Quest Home
+Sobre nosotros
+Expect More Video
+Historia
+Misión
+Visión
+Valores Fundamentales
+Preguntas Más Frecuentes
+Promesa
+Información Sobre Las Escuelas Autónomas
+Reporte Anual
+At A Glance Report Card
+Boletines
+Notas de Prensa
+Tablero
+Miembros
+Las Agendas de Reuniones
+Acta de la Reunión
+Políticas
+FOIA
+Empleo
+Aberturas
+Solicitud
+Comunidad
+¿Por qué Misiones
+Cómo Aplicar
+Personal
+Secure Site
+Welcome to Quest
+Dear Parents, Students, and Community Members,
+Welcome to the 2017-2018 school year!  There are many exciting changes that will be taking place this year, not the least of which is our move to a balanced calendar, making our first full day of school, Tuesday, August 1. A balanced calendar is the exact same number of school days we have always had, they are simply more spaced out which results in more frequent breaks throughout the year, and a slightly shorter summer break. Being a charter school, Quest can, and is expected to try new, innovative and cutting-edge ideas. Our ultimate goal is outstanding academic achievement and ensuring our students are fully prepared for college and careers. We truly believe moving to a balanced calendar will result in higher retention of student learning, higher test scores, a higher attendance rate and fewer tardies, less teacher stress and turnover, increased staff communication and planning, and increased positive school culture.
+A second exciting change is the implementation of career academies at Quest High School. The career academies will take our high school students on a deep dive in a field of interest. All extra-curriculars, clubs and courses will be woven through the academies, providing our students with several hands-on, experiential learning opportunities throughout their high school years.
+Finally, we are also excited to announce the launch of the Summit Learning pilot in our 6th grade.  This very personalized approach to learning is going to be life changing for our students. We hope you will come to see learning happening in a very unique, one-to-one, personalized and flexible environment!
+If you are a community member or prospective parent and would like to visit us, please call. We would love to have our students give you a tour and tell you about their school. If you are a parent, I encourage you to fully participate in your child’s education by having a presence at school functions, volunteering at school, etc. We have an aggressive goal of having more than 75% parental involvement and we need your help!  Together, we can do amazing things for our scholars! 
+I wish you all the best this year.  We know that you have a choice in your child’s education, and we feel honored that you chose us.  Together we are on a “Quest to be the best”!  Welcome and enjoy the journey!
+Sincerely,
+Nicole Couri Wood, Ph.D.
+ Executive Director
+ Quest Charter Academy
+Read More
+Información Sobre Las Escuelas Autónomas
+La traducción de esta página aún no está disponible en Español. Esperámos tener la traducción en Español en un futuro próximo. Para su conveniencia, la versión en Inglés se muestra abajo.
+Charter schools are unique public schools that have the freedom to be more innovative while being held accountable for advancing student achievement. Because they are public schools, they are open to all children, do not charge tuition, and do not have special entrance requirements.
+Charter schools empower parents to choose a public school with a mission-driven curriculum and a strong school culture that best fits their student. Because of their flexibility, charter schools allow teachers to be leaders in their school and grant them the freedom to be innovative in their classroom to tailor instruction to the needs of their students.
+Charter schools are raising the bar on student achievement for schools across Illinois by improving test scores, graduating more students from high school, and increasing college acceptance and persistence rates for all Illinois students.
+Myths & Facts
+Myth: Charter schools “cherry pick” their students.
+Fact: A 2009 Rand Corporation study, Achievement and Attainment in Chicago Charter Schools, found that “There is no indication that charters are “skimming the cream” of students from CPS: Prior achievement levels of students who leave CPS schools for charter schools are not substantially higher than the achievement levels of the peers they leave behind.” Illinois charter schools are required by law to admit district students who apply on a first-come, first-served basis. The only priority is given to siblings of students already in the school. If there are too many applicants for available spots, the law requires the school to admit students by lottery.
+Myth: Charter public schools don’t produce better academic results than district-run schools.
+Fact: While the national charter performance data varies by state, Illinois charter schools on average perform better than district-run public schools.
+Statewide:
+74% of charter high schools exceeded comparison school performance on the 2014 ACT.
+66% of Illinois charter elementary schools exceeded comparison school performance in reading in 2014; 56% exceeded comparison schools in math.
+Myth: Charter school children come from more committed families, and that accounts for their improved academic results.
+Fact: A 2009 Rand Corporation study, Achievement and Attainment in Chicago Charter Schools compares charter school students to those who applied to charter schools but were not admitted showing that charter schools alone make a big difference in student outcomes. Studies of New York and Chicago charter schools found a direct positive relationship between charter school attendance and academic performance—the longer a child is in a charter school, the better he or she does.
+Myth: Charter schools are private schools.
+Fact: By law, charter schools are publicly-funded, open enrollment, free public schools operated by non-profit organizations.
+Myth: Charter schools are for-profit companies.
+Fact: All charters, by law, must be governed by a non-profit board of directors. A charter school may choose to contract out the management of the school to another nonprofit or for-profit management company. Only 7% of schools contract with for-profit management companies, and these contracts must be reviewed by the charter school’s authorizer.
+Myth: Charter schools don’t have to take special education students.
+Fact: Like other district schools, charters must take any special education student who applies, on the same basis as other students. If a special education student applies to a charter, he or she will have the same chance to be selected in the lottery as any other student. In fact, charter schools serve a comparable number of special education students as district-run schools: 13% in charters and 14% in district-run schools statewide in 2014.
+Myth: High teacher turnover at charter schools hurts students.
+Fact: Some charters experience high teacher turnover, especially in their early years. But there is no indication that high turnover, even where it occurs, hurts students. Charters are designed to put students first, and that means attracting and retaining the very best teachers — and it means not retaining teachers who are not performing well, are not mission driven, or are not a good fit with the culture of the school.
+Myth: Charter schools get rid of students they don’t want.
+Fact: Student attrition is generally high in urban areas, in both district-run schools and charter public schools. The vast majority of students who leave do so because their families move. By law, charter schools are open enrollment schools, and may not counsel students out based on student performance or behavior challenges.
+Myth: Charter schools take in so much private funding, it doesn’t matter that they are underfunded by the state.
+Fact: Charter public schools have the same opportunity as district-run schools to raise funds to bring more resources to the public school arena. Many believe that charters can rely on alternative sources of funding to bridge the gap in funding from district-run schools, however charter schools are only able to close 40% of that gap on average. Despite the funding gap, however, all charters are required to have a strong plan for sustainability in order to be approved and many charter public schools have proven to be effective operators with fewer dollars per pupil than traditionally funded public schools.
+Myth: Charter schools have luxurious, state-of-the-art facilities.
+Fact: Finding an appropriate building is the biggest hurdle for a charter school. Schools occupy old school district buildings, unused private school buildings, converted industrial or commercial space, or new buildings they construct. Unlike district-run schools, Illinois’ charter public schools do not receive nearly enough public funding for their school buildings or other capital improvements, creating an enormous fundraising burden.
+Myth: Charters are used as a tool to gentrify neighborhoods.
+Fact: Most Illinois charters are located in under resourced neighborhoods, and they serve mostly low-income, minority students. Statewide, 93% of charter school students are African American or Latino and 89% of charter public school students are low-income.
+Myth: Charter schools are part of a scheme to privatize public education.
+Fact: The charter law is designed to give communities the power to create public schools that serve their needs. Charter schools are privately operated, but they are not privately owned. The charter holder is always a non-profit organization, and the charter school is always a public school.
+This information was obtained from the Illinois Network of Charter Schools. For additional information, please go to 
+www.incschools.org
+                                        Quest Charter Academy
+                                        2503 N. University Ave. Peoria, IL 61604
+                                        Phone: (309) 402-0030
+                                        Fax: (309) 685-3001
+info@questpeoria.org
+Sobre nosotros
+Tablero
+Empleo
+Comunidad
+Personal
+Newsletter
+Skyward
+Donate
+Calendar
+                                        Quest High School
+                                        2503 N. University Ave. Peoria, IL 61604
+                                        Phone: (309) 402-0030
+                                        Fax: (309) 685-3001
+info@questpeoria.org
+Sobre nosotros
+Académica
+Universidad/Carrera
+Ocupaciones
+Atletismo
+Familias
+Los Estudiantes
+                                        Quest Middle School
+                                        2612 N. Bootz Ave. Peoria, IL 61604
+                                        Phone: (309) 222-8719
+                                        Fax : (309) 685-8801
+info@questpeoria.org
+Sobre nosotros
+Académica
+Ocupaciones
+Atletismo
+Familias
+Los Estudiantes
+Web Development and Hosting by 
+Stellar Systems, Inc.
+Site Map
+Sign in
+Signed in

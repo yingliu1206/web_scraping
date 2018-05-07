@@ -1,0 +1,423 @@
+<div class="docs-butterbar-container"><div class="docs-butterbar-wrap"><div class="jfk-butterBar jfk-butterBar-shown jfk-butterBar-warning">JavaScript isn't enabled in your browser, so this file can't be opened. Enable and reload.</div></div><br></div>
+Working...
+Some Excel features can't be displayed in Google Sheets and will be dropped if you make changes
+View Details
+2018-2019 Academic Calendar
+ Share
+Sign in
+File
+Edit
+View
+Insert
+Format
+Data
+Tools
+Form
+Add-ons
+Help
+Accessibility
+See new changes
+Accessibility
+View only
+Copy chart
+Edit chart...
+Publish chart
+Save image
+Delete chart
+To enable screen reader support, press Ctrl+Alt+Z To learn about keyboard shortcuts, press Ctrl+slash
+Separator:
+Add
+more rows at bottom.
+Loading...
+Quotes are not sourced from all markets and may be delayed up to 20 minutes. Information is provided 'as is' and solely for informational purposes, not for trading purposes or advice.
+Disclaimer
+0
+Year
+Explore
+A browser error has occurred.
+Please press Ctrl-F5 to refresh the page and try again.
+A browser error has occurred.
+Please hold the Shift key and click the Refresh button to try again.
+Main menu
+?
+SUM
+AVERAGE
+COUNT
+MAX
+MIN
+More...
+Ask a question and get a formula
+E
+xport options disabled...
+Share...
+New
+►
+Open...
+Ctrl+O
+Import...
+Make a 
+copy...
+Save as Google Sheets
+(
+U)
+Download as
+►
+Em
+ail as attachment...
+Ma
+ke available offline
+Version 
+history
+►
+Rename...
+Move to...
+Edit description...
+(
+Y)
+Ctrl+Shift+E
+Move 
+to trash
+Publish to the 
+web...
+Email collaborators...
+Document details...
+(
+B)
+Language
+Spreadsheet settin
+gs...
+Print pre
+view
+Print
+Ctrl+P
+E
+xport options disabled...
+Undo
+Ctrl+Z
+Redo
+Ctrl+Y
+Cu
+t
+Ctrl+X
+Copy
+Ctrl+C
+Paste
+Ctrl+V
+Paste with
+out formatting
+Ctrl+Shift+V
+Pa
+ste special
+►
+Select 
+all
+Ctrl+A
+Move row 
+up
+(
+K)
+Move row 
+down
+(
+J)
+Move column 
+left
+Move column 
+r
+ight
+Find and replace...
+Ctrl+H
+Delete 
+values
+Delete row 5
+D
+elete column A
+Delete cells and shift 
+up
+(
+Y)
+Delete cells and shift left
+(
+Z)
+C
+lear notes
+Remove c
+heckboxes
+F
+reeze
+►
+Gridlines
+Protected ranges
+Formula bar
+Show formul
+as
+Ctrl+`
+Hidden sheets
+►
+Zoom
+►
+F
+ull screen
+Row above
+Row 
+below
+Column left
+C
+olumn right
+Cells an
+d shift 
+down
+Cells and sh
+ift right
+C
+hart
+Ima
+ge...
+Dra
+wing...
+Form...
+F
+unction
+►
+Lin
+k...
+Ctrl+K
+NEW
+Checkbo
+x
+Co
+mment
+Ctrl+Alt+M
+Note
+Shift+F2
+New 
+sheet
+Shift+F11
+Direction
+►
+Number
+►
+Bold
+Ctrl+B
+Italic
+Ctrl+I
+Underline
+Ctrl+U
+Stri
+kethrough
+Alt+Shift+5
+Font 
+size
+►
+Align
+►
+Merge cells
+►
+Text 
+wrapping
+►
+Text 
+rotation
+►
+Conditional 
+formatting...
+A
+lternating colors...
+Clear formatting
+Ctrl+\
+Sort sheet by column 
+A, A → Z
+Sort sheet by column A, 
+Z → A
+So
+rt range by 
+column A, A → Z
+Sor
+t range by 
+column A, Z → A
+Sort range...
+Create a 
+filter
+Filter vie
+ws...
+►
+Data 
+validation...
+Pivot table...
+Ran
+domize range
+Named ranges...
+Pr
+otected sheets and ranges...
+Split t
+ext to columns...
+Group
+Alt+Shift+→
+Ungroup
+Alt+Shift+←
+Explo
+re
+Ctrl+Alt+Shift+I
+Dictionary
+Ctrl+Shift+Y
+Create a 
+form
+Script mana
+ger...
+Script 
+editor
+Macros
+►
+Spelling
+►
+En
+able autocomplete
+Notification rules...
+Pro
+tect sheet...
+Preferences...
+Activity dashboard...
+(
+Z)
+Activit
+y dashboard privacy...
+Edit form
+Send form
+Go to live form
+Embed form in a 
+webpage...
+Show summa
+ry of responses
+Unlink form
+Document 
+add-ons
+Get add-ons...
+Manage add-ons...
+S
+heets Help
+Report a problem
+Report 
+abuse/copyright
+Function list
+Keyboard shortcuts
+Ctrl+/
+Speak
+►
+Comments
+►
+S
+elect
+►
+Go to range
+Focus 
+Toolbar
+Open filter 
+dropdown menu
+Ctrl+Alt+R
+Grou
+ps
+►
+Settings
+(
+L)
+►
+50%
+75%
+90%
+100%
+125%
+150%
+200%
+6
+7
+8
+9
+10
+11
+12
+14
+18
+24
+36
+-90°
+-75°
+-60°
+-45°
+-30°
+-15°
+0°
+15°
+30°
+45°
+60°
+75°
+90°
+Create new temporary filter view
+Save as temporary filter view
+Filter view options
+►
+Learn more
+Create new temporary filter view
+Save as temporary filter view
+Filter view options
+►
+Learn more
+Create new temporary filter view
+Save as temporary filter view
+Filter view options
+►
+Learn more
+Automatic
+Plain text
+Number
+1,000.12
+Percent
+10.12%
+Scientific
+1.01E+03
+Accounting
+ $ (1,000.12)
+Financial
+(1,000.12)
+Currency
+$1,000.12
+Currency (rounded)
+$1,000
+Date
+9/26/2008
+Time
+3:59:00 PM
+Date time
+9/26/2008 15:59:00
+Duration
+24:01:00
+More Formats
+►
+Automatic
+Plain text
+Number
+1,000.12
+Percent
+10.12%
+Scientific
+1.01E+03
+Accounting
+ $ (1,000.12)
+Financial
+(1,000.12)
+Currency
+$1,000.12
+Currency (rounded)
+$1,000
+Date
+9/26/2008
+Time
+3:59:00 PM
+Date time
+9/26/2008 15:59:00
+Duration
+24:01:00
+More Formats
+►
+Anyone with the link
+Anyone who has the link can access. No sign-in required.

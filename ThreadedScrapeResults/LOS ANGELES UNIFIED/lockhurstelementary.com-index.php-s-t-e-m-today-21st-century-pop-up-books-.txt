@@ -1,0 +1,138 @@
+Sidebar
+×
+ABOUT US
+Tech Center
+Program
+Preschool
+Tech Lab K-8
+Educators
+Class Pages
+Tools (P.D)
+Tech Service
+Leasing
+Contact
+Careers
+Privacy Policy
+CLASSES
+Location
+Woodland Hills
+Porter Ranch C.S.
+Beckford ES
+Lockhurst ES
+Descriptions
+FAQ
+CAMPS
+Summer Camp
+Woodland Hills
+Porter Ranch
+Refund Policy
+Schedule
+FAQ
+SCHOOLS
+Andasol E.S.
+Beachy Elementary
+Beckford Charter E.S.
+Calabash Charter Acad.
+Colfax Charter E.S.
+Dearborn Charter E.S.
+Enadia Way E.S.
+Haynes Charter E.S.
+Hesby Oaks E.S.
+Kester Avenue E.S.
+Lassen E.S.
+Lockhurst Drive E.S.
+Porter Ranch Comm.S.
+San Jose HGM
+San Pascual Avenue E.S.
+Sherman Oaks E.S.
+Superior Street E.S.
+Vanalden Avenue E.S.
+Welby Way E.S.
+Woodlake Comm Charter
+Woodland Hills E.S.
+S.T.E.M Today
+Balancing Act
+Mission Possible
+Marvelous Minecraft
+Osmosis
+In Other People's Shoes
+iPads vs. Chromebooks
+2018 Best Apps
+Classic Choice
+Popular Languages
+21st Century Pop Up Books
+Learn To Code
+												Home					
+Search...
+ABOUT US 
+Tech Center 
+Program 
+Preschool 
+Tech Lab K-8 
+Educators 
+Class Pages 
+Tools (P.D) 
+Tech Service 
+Leasing 
+Contact 
+Careers 
+Privacy Policy 
+CLASSES 
+Location
+Woodland Hills 
+Porter Ranch C.S. 
+Beckford ES 
+Lockhurst ES 
+Descriptions 
+FAQ 
+CAMPS 
+Summer Camp 
+Woodland Hills 
+Porter Ranch 
+Refund Policy 
+Schedule 
+FAQ 
+SCHOOLS 
+Andasol E.S. 
+Beachy Elementary 
+Beckford Charter E.S. 
+Calabash Charter Acad. 
+Colfax Charter E.S. 
+Dearborn Charter E.S. 
+Enadia Way E.S. 
+Haynes Charter E.S. 
+Hesby Oaks E.S. 
+Kester Avenue E.S. 
+Lassen E.S. 
+Lockhurst Drive E.S. 
+Porter Ranch Comm.S. 
+San Jose HGM 
+San Pascual Avenue E.S. 
+Sherman Oaks E.S. 
+Superior Street E.S. 
+Vanalden Avenue E.S. 
+Welby Way E.S. 
+Woodlake Comm Charter 
+Woodland Hills E.S. 
+S.T.E.M Today 
+Balancing Act 
+Mission Possible 
+Marvelous Minecraft 
+Osmosis 
+In Other People's Shoes 
+iPads vs. Chromebooks 
+2018 Best Apps 
+Classic Choice 
+Popular Languages 
+21st Century Pop Up Books 
+Learn To Code 
+        ﻿
+ Print 
+ Email
+The Pokemon game was all the rage. It was impossible to control my middle school kids because our school was a Pokemon hotspot. I was intrigued by this game and its popularity. And, I jumped on the bandwagon to understand its addictive nature.
+Capitalizing on student interest has always proved to make very gratifying learning experiences. I decided to do just that.
+The students were working on a comic book that illustrated the loss of animal habitats and the affect it has on our eco system in different biomes around the world. I decided to give this project a twist. I told the kids we were making a our own Pop Up Book of virtual animals just like the Pokemon game. We will make our first Augmented Reality based AR Application using Unity and run it using an Android or iOS device.
+We used Google Sketchup to draw 1-2 animals from the Biome. We added texture to the 3D animal object to make it realistic. This build took about 4-5 periods to complete.
+Then we created virtual buttons with Vuforia in Unity 3D. Unity a scripting language. Unity is very popular today because it is widely used to create augmented & virtual reality games. Unity script will make our animals POP UP from the book.
+Copyright © 2018 Computerwisekids. All Rights Reserved.
+<div style="display:inline;"><img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/826447835/?guid=ON&amp;script=0"/></div>

@@ -1,0 +1,22 @@
+Administrator Sign In
+                        To sign in to PowerSchool, you must use a browser that supports and has JavaScript enabled.                    
+										Username									
+Password
+Sign In
+                            05/07/2018                                                
+                            12:18 AM                                                
+                                11.0.5                                                    
+Copyright © 2005-2018 PowerSchool Group LLC and/or its affiliate(s). All rights reserved.
+All trademarks are either owned or licensed by PowerSchool Group LLC and/or its affiliates.
+                            PowerSchool.com                        
+Version: 
+11.0.5.2.1330683
+State/Provincial Content: 
+USA-CA 18.4.0.3.0
+PowerTeacher Gradebook: 
+2.8.0.12
+Machine Uptime: 
+134 days, 16 hours, 13 minutes, 0 seconds
+PS Server Uptime: 
+1 day, 15 hours, 42 minutes, 34 seconds
+                    LDAP Disabled                

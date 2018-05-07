@@ -1,0 +1,1 @@
+			<p style="padding-top: 100px; text-align: center">			This application requires frames to operate properly<br />			Please use a browser that supports frames.			</p>		
