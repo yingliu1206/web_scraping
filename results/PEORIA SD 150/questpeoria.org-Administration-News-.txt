@@ -1,0 +1,136 @@
+        <style>            .dropdown-toggle:hover + .dropdown-menu { display:block; }            .navbar-header:hover + .collapse, .collapse:hover { display: block; }            .navbar-nav .dropdown-toggle:hover > .dropdown-menu { position: static; float: none; width: auto; margin-top: 0; background-color: transparent; -webkit-box-shadow: none; box-shadow: none; border: none; }            .dropdown-menu:hover { display: block; }        </style>    
+English
+Español
+Middle School
+High School
+Quest Home
+Sobre nosotros
+Expect More Video
+Historia
+Misión
+Visión
+Valores Fundamentales
+Preguntas Más Frecuentes
+Promesa
+Información Sobre Las Escuelas Autónomas
+Reporte Anual
+At A Glance Report Card
+Boletines
+Notas de Prensa
+Tablero
+Miembros
+Las Agendas de Reuniones
+Acta de la Reunión
+Políticas
+FOIA
+Empleo
+Aberturas
+Solicitud
+Comunidad
+¿Por qué Misiones
+Cómo Aplicar
+Personal
+Secure Site
+Welcome to Quest
+Dear Parents, Students, and Community Members,
+Welcome to the 2017-2018 school year!  There are many exciting changes that will be taking place this year, not the least of which is our move to a balanced calendar, making our first full day of school, Tuesday, August 1. A balanced calendar is the exact same number of school days we have always had, they are simply more spaced out which results in more frequent breaks throughout the year, and a slightly shorter summer break. Being a charter school, Quest can, and is expected to try new, innovative and cutting-edge ideas. Our ultimate goal is outstanding academic achievement and ensuring our students are fully prepared for college and careers. We truly believe moving to a balanced calendar will result in higher retention of student learning, higher test scores, a higher attendance rate and fewer tardies, less teacher stress and turnover, increased staff communication and planning, and increased positive school culture.
+A second exciting change is the implementation of career academies at Quest High School. The career academies will take our high school students on a deep dive in a field of interest. All extra-curriculars, clubs and courses will be woven through the academies, providing our students with several hands-on, experiential learning opportunities throughout their high school years.
+Finally, we are also excited to announce the launch of the Summit Learning pilot in our 6th grade.  This very personalized approach to learning is going to be life changing for our students. We hope you will come to see learning happening in a very unique, one-to-one, personalized and flexible environment!
+If you are a community member or prospective parent and would like to visit us, please call. We would love to have our students give you a tour and tell you about their school. If you are a parent, I encourage you to fully participate in your child’s education by having a presence at school functions, volunteering at school, etc. We have an aggressive goal of having more than 75% parental involvement and we need your help!  Together, we can do amazing things for our scholars! 
+I wish you all the best this year.  We know that you have a choice in your child’s education, and we feel honored that you chose us.  Together we are on a “Quest to be the best”!  Welcome and enjoy the journey!
+Sincerely,
+Nicole Couri Wood, Ph.D.
+ Executive Director
+ Quest Charter Academy
+Read More
+News
+Quest hires two longtime educators as part-time interim directors - Apr 3, 2018
+View Peoria Journal Star Article
+Quest advances to Elite 8 with 70-56 win over Brown County - Mar 2, 2018
+View Peoria Journal Start article
+Open Enrollment for Quest Charter Academy - Feb 22, 2018
+View Story
+Peoria Quest Gators on Prep Rally - Jan 11, 2018
+View Segment
+A Quest for Innovations - Dec 1, 2017
+View InterBusiness Issues Article
+Middle School Back to School Village of Men Initiative - Aug 2, 2017
+View WEEK-TV25 story
+First day of school "Village of Men" initiative - Aug 2, 2017
+View Peoria Journal Star article
+WMBD Radio 1470 School Starting Early story - Aug 1, 2017
+View WMBD Radio 1470 story
+Quest Starts School Tuesday - Jul 28, 2017
+See Peoria Journal Star article
+ColorVibe 5K Paints a Rainbow on the Riverfront - Jul 15, 2017
+View media coverage
+New Coach for Peoria Heights/Quest Football Team - Jun 14, 2017
+View news article
+Quest High School Seniors have a special lesson in etiquette - Apr 19, 2017
+view article
+Quest student discusses financial literacy learned through Junior Achievement - Apr 18, 2017
+View interview
+Celebrating the life of Glen Barton - Mar 23, 2017
+view article
+Dr. Nicole Couri Wood talks to WMBD's Lindsey Mills about Quest's open application period  - Feb 16, 2017
+View interview
+Color Vibe 5K returns to riverfront for third year running - Jul 9, 2016
+View Article
+Scouting experience helps local youth shine - Jul 9, 2016
+View Article
+Quest Charter Academy's first graduating class helps chart a new path - May 28, 2016
+View Article
+Former Caterpillar CEO Glen Barton and his wife Polly have been driving forces behind Quest - May 28, 2016
+View Article
+Quest pays tribute to Glen and Polly Barton - Apr 22, 2016
+view news coverage
+GLEN & Polly Barton Honored - Apr 21, 2016
+View Article
+Bits of Madness: Cory Hill throws one in from 80 feet to win his third CEFCU Rainbow Shot - Mar 19, 2016
+View Article
+Quest Charter students learn to mind their manners during restaurant lesson - Feb 23, 2016
+View Article
+On a basketball journey: Quest boys seeing quick success - Dec 16, 2015
+View Article
+                                        Quest Charter Academy
+                                        2503 N. University Ave. Peoria, IL 61604
+                                        Phone: (309) 402-0030
+                                        Fax: (309) 685-3001
+info@questpeoria.org
+Sobre nosotros
+Tablero
+Empleo
+Comunidad
+Personal
+Newsletter
+Skyward
+Donate
+Calendar
+                                        Quest High School
+                                        2503 N. University Ave. Peoria, IL 61604
+                                        Phone: (309) 402-0030
+                                        Fax: (309) 685-3001
+info@questpeoria.org
+Sobre nosotros
+Académica
+Universidad/Carrera
+Ocupaciones
+Atletismo
+Familias
+Los Estudiantes
+                                        Quest Middle School
+                                        2612 N. Bootz Ave. Peoria, IL 61604
+                                        Phone: (309) 222-8719
+                                        Fax : (309) 685-8801
+info@questpeoria.org
+Sobre nosotros
+Académica
+Ocupaciones
+Atletismo
+Familias
+Los Estudiantes
+Web Development and Hosting by 
+Stellar Systems, Inc.
+Site Map
+Sign in
+Signed in

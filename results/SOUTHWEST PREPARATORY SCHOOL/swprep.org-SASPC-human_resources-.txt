@@ -1,0 +1,32 @@
+Guest
+ | 
+Login
+			{1}							
+##LOC[OK]##									
+			    {1}							    
+##LOC[OK]##
+##LOC[Cancel]##
+			{1}							
+##LOC[OK]##
+##LOC[Cancel]##
+Human Resources
+c
+Human Resources
+Employment Opportunities
+Southwest Preparatory School District
+ » 
+SASPC
+ » 
+Human Resources
+Human Resources
+The San Antonio Special Programs Co-op current Employment Opportunities
+Part-time Licensed Specialist in School Psychology (LSSP) Bilingual
+Part-time Speech Language Pathologist (SLP) Bilingual
+LSSP Interns (San Antonio Area, Brownsville/Harlingen Area)
+Link 
+https://hros.websmartsolutions.org/S/SWPREP/Onboarding
+Please apply at the swprep.org website on the Human Resource page.
+If you have any questions please call our office at 210-447-9101.
+Website by 
+SchoolMessenger Presence
+.  © 2018 West Corporation. All rights reserved.

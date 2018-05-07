@@ -1,0 +1,27 @@
+This site can’t be reached
+%3Ciframe%20width%3D%22560%22%20height%3D%22315%22%20src%3D%22https’s server 
+DNS address could not be found.
+Try:
+Checking the connection
+Checking the proxy, firewall, and DNS configuration
+ERR_NAME_NOT_RESOLVED
+Reload
+Details
+Check your Internet connection
+Check any cables and reboot any routers, modems, or other network    devices you may be using.
+Check your DNS settings
+Contact your network administrator if you're not sure what this means.
+Try disabling network prediction
+Go to          the Chrome menu >          
+Settings          >          
+Show advanced settings…          and deselect "
+Use a prediction service to load pages more quickly."          If this does not resolve the issue, we recommend selecting this option          again for improved performance.
+Allow Chrome to access the network in your firewall or antivirus          settings.
+If it is already listed as a program allowed to access the network, try      removing it from the list and adding it again.
+If you use a proxy server…
+Check your proxy settings or contact your network administrator to      make sure the proxy server is working. If you don't believe you should      be using a proxy server:      Go to          the Chrome menu >          
+Settings          >          
+Show advanced settings…          >          
+Change proxy settings…          and make sure your configuration is set to "no proxy" or "direct."
+%3Ciframe%20width%3D%22560%22%20height%3D%22315%22%20src%3D%22https’s server 
+DNS address could not be found.

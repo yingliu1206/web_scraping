@@ -1,0 +1,33 @@
+IT Help Desk
+River City Science Academy
+ >IT Help Desk
+Search help:        
+ Loading knowledgebase suggestions...		
+Submit a ticket
+            Submit a new issue to a department
+View existing ticket
+            View tickets you submitted in the past
+Knowledgebase
+» Top Knowledgebase articles:
+Views
+Office365 User Guide
+2887
+What is OneDrive for Business
+1129
+Start using Outlook Web App for email and calendars
+1011
+» Latest Knowledgebase articles:
+Date added
+Training courses for Lync 2013
+2014-08-19 16:12:55
+Setting Up Your Email on Mobile Devices
+2014-08-05 16:49:26
+Accessing Email from Web
+2014-08-05 16:47:56
+» 
+View entire Knowledgebase
+Go to Administration Panel
+Powered by 
+Help Desk Software
+ HESK, brought to you by 
+SysAid

@@ -1,0 +1,189 @@
+Sidebar
+×
+ABOUT US
+Tech Center
+Program
+Preschool
+Tech Lab K-8
+Educators
+Class Pages
+Tools (P.D)
+Tech Service
+Leasing
+Contact
+Careers
+Privacy Policy
+CLASSES
+Location
+Woodland Hills
+Porter Ranch C.S.
+Beckford ES
+Lockhurst ES
+Descriptions
+FAQ
+CAMPS
+Summer Camp
+Woodland Hills
+Porter Ranch
+Refund Policy
+Schedule
+FAQ
+SCHOOLS
+Andasol E.S.
+Beachy Elementary
+Beckford Charter E.S.
+Calabash Charter Acad.
+Colfax Charter E.S.
+Dearborn Charter E.S.
+Enadia Way E.S.
+Haynes Charter E.S.
+Hesby Oaks E.S.
+Kester Avenue E.S.
+Lassen E.S.
+Lockhurst Drive E.S.
+Porter Ranch Comm.S.
+San Jose HGM
+San Pascual Avenue E.S.
+Sherman Oaks E.S.
+Superior Street E.S.
+Vanalden Avenue E.S.
+Welby Way E.S.
+Woodlake Comm Charter
+Woodland Hills E.S.
+S.T.E.M Today
+Balancing Act
+Mission Possible
+Marvelous Minecraft
+Osmosis
+In Other People's Shoes
+iPads vs. Chromebooks
+2018 Best Apps
+Classic Choice
+Popular Languages
+21st Century Pop Up Books
+Learn To Code
+Sidebar
+×
+ Get In Touch 
+ABOUT US
+CLASSES
+CAMPS
+SCHOOLS
+S.T.E.M Today
+																		Home					
+Search...
+ABOUT US 
+Tech Center 
+Program 
+Preschool 
+Tech Lab K-8 
+Educators 
+Class Pages 
+Tools (P.D) 
+Tech Service 
+Leasing 
+Contact 
+Careers 
+Privacy Policy 
+CLASSES 
+Location
+Woodland Hills 
+Porter Ranch C.S. 
+Beckford ES 
+Lockhurst ES 
+Descriptions 
+FAQ 
+CAMPS 
+Summer Camp 
+Woodland Hills 
+Porter Ranch 
+Refund Policy 
+Schedule 
+FAQ 
+SCHOOLS 
+Andasol E.S. 
+Beachy Elementary 
+Beckford Charter E.S. 
+Calabash Charter Acad. 
+Colfax Charter E.S. 
+Dearborn Charter E.S. 
+Enadia Way E.S. 
+Haynes Charter E.S. 
+Hesby Oaks E.S. 
+Kester Avenue E.S. 
+Lassen E.S. 
+Lockhurst Drive E.S. 
+Porter Ranch Comm.S. 
+San Jose HGM 
+San Pascual Avenue E.S. 
+Sherman Oaks E.S. 
+Superior Street E.S. 
+Vanalden Avenue E.S. 
+Welby Way E.S. 
+Woodlake Comm Charter 
+Woodland Hills E.S. 
+S.T.E.M Today 
+Balancing Act 
+Mission Possible 
+Marvelous Minecraft 
+Osmosis 
+In Other People's Shoes 
+iPads vs. Chromebooks 
+2018 Best Apps 
+Classic Choice 
+Popular Languages 
+21st Century Pop Up Books 
+Learn To Code 
+        ﻿
+ Print 
+ Email
+Woodland Hills Computer Lab
+ Welcome to the Woodland Hills Computer Lab. In the lab we learn online safety, keyboard skills, digital art, learning word processing, presentations, spreadsheets and coding/robotics.
+Instructor
+I am looking forward to meeting everyone this year. Don't forget to practice some typing & coding everyday.
+Email: Josue Sanchez 
+jsanchez@computerwisekids.com
+Instructor
+I am looking forward to meeting everyone this year. Don't forget to practice some typing & coding everyday.
+Email: Soumya Nair 
+SNair@computerwisekids.com
+News from the Lab
+Robotics Curriculum
+Grade 4
+Grade 5
+We are pleased this year to be bringing a full-fledged VEX IQ Robotics curriculum to Woodland Hills Elementary School. Vex IQ is a robotics platform used to teach young students core scientific principles in a fun and creative way. It features tool-less plastic components that snap together easily and turn out to be very intuitive to young students. Using teamwork , problem solving, and leadership, students will utilize the VEX IQ platform to enhance their knowledge in the areas of Science, Technology, Engineering, and Math (STEM). STEM education is a growing necessity in the Elementary and Middle School level and VEX IQ provides an engaging and relatable method of delivering it. Each lesson in the curriculum will present different principles of engineering and computer science so that students can get a full understanding of the scientific concepts which help to operate their robotic designs.
+We start by going over STEM concepts such as friction, speed, torque, power and mechanics so that students get a good foundation in engineering processes. We then, as teams, build simple machines that exhibit these principles in front of us and allows us to get hands on with the components of the VEX kit. Some examples of these simple machines include pulleys, levers, and pendulums. We then use these concepts we learned about to build a complex chain reaction machine to complete a task. This machine will feature different stages of the machines we built earlier to complete an easy task in a very complex way.
+After completing our understanding of the engineering basics, we move on to building our first robot. We build the VEX IQ Drive Base which serves as a foundation to our other robots. We use this time to learn about mechanisms used to move the robot such as gear ratios, motors, and drivetrains. We apply these concepts we learned about and combine them with the coding language Blockly to program our robots. Our aim at this point is to get familiar with coding so that we can create autonomous robots to do what we need them to do. Students will learn about object manipulation using coding to make the robots do specific tasks in their environment.
+The VEX IQ comes equipped with a set of smart sensors that can be used to determine how the robot will behave in certain environmental situations. The smart sensors we will us are:
+Bumper Switch - We will learn about and use a Bumper switch which gives the robot the ability to sense walls or objects. We can use this to program the robot to move continuously without interruption.
+Distance Sensor - The Distance sensor emits ultrasonic waves to detect distance and can be used to avoid obstacles altogether. Students can create puzzles for themselves and the robots to solve together.
+Touch LED – A sensor with red, blue, and green LED's that can be turned on, off or left blinking at a desired rate. We will use this LED as a touch sensor to physically tell the robot when to run the program and when to turn off the program.
+Color Sensor – This sensor detects the color of objects in 256 levels of red, blue, and green. We use cards to control the activity of the program we created for the robot.
+Gyro Sensor – The Gyro sensor measures turn rates and can calculate direction. We can use this to program more accurate movement of our robots.
+	Learn how to change text color, size and style of font.
+The Clawbot IQ is the flagship robot of the VEX IQ kit. With the knowledge the students gain from simple machines, mechanisms, and programming, we will build and program the Clawbot IQ. The Clawbot IQ is able to not only lift objects and carry them to a designated spot autonomously; but also to use all of the sensors we learned about to react in a variety of ways to our environment. We can even use these robots to run some friendly competition amongst the groups in the class to see who can run the most innovative programs.
+The Clawbot IQ is not the only robot we can make with these kits however. Once the students have learned some of these core STEM principles, they can express their creativity to design their own robots which will be able to maneuver and react to their environment in a myriad of ways. At this point only their imagination is the limit.
+These scientific principles learned from STEM and the VEX IQ Robotics platform will not only allow students to build and design their own robots; but it will foster in them a curiosity about the way that machines work and what they can do to control the technology around them. It will also ultimately allow these students to become the technology based problem solvers of the future.
+We are pleased this year to be bringing a full-fledged VEX IQ Robotics curriculum to Woodland Hills Elementary School. Vex IQ is a robotics platform used to teach young students core scientific principles in a fun and creative way. It features tool-less plastic components that snap together easily and turn out to be very intuitive to young students. Using teamwork , problem solving, and leadership, students will utilize the VEX IQ platform to enhance their knowledge in the areas of Science, Technology, Engineering, and Math (STEM). STEM education is a growing necessity in the Elementary and Middle School level and VEX IQ provides an engaging and relatable method of delivering it. Each lesson in the curriculum will present different principles of engineering and computer science so that students can get a full understanding of the scientific concepts which help to operate their robotic designs.
+We start by going over STEM concepts such as friction, speed, torque, power and mechanics so that students get a good foundation in engineering processes. We then, as teams, build simple machines that exhibit these principles in front of us and allows us to get hands on with the components of the VEX kit. Some examples of these simple machines include pulleys, levers, and pendulums. We then use these concepts we learned about to build a complex chain reaction machine to complete a task. This machine will feature different stages of the machines we built earlier to complete an easy task in a very complex way.
+After completing our understanding of the engineering basics, we move on to building our first robot. We build the VEX IQ Drive Base which serves as a foundation to our other robots. We use this time to learn about mechanisms used to move the robot such as gear ratios, motors, and drivetrains. We apply these concepts we learned about and combine them with the coding language Blockly to program our robots. Our aim at this point is to get familiar with coding so that we can create autonomous robots to do what we need them to do. Students will learn about object manipulation using coding to make the robots do specific tasks in their environment.
+The VEX IQ comes equipped with a set of smart sensors that can be used to determine how the robot will behave in certain environmental situations. The smart sensors we will us are:
+Bumper Switch - We will learn about and use a Bumper switch which gives the robot the ability to sense walls or objects. We can use this to program the robot to move continuously without interruption.
+Distance Sensor - The Distance sensor emits ultrasonic waves to detect distance and can be used to avoid obstacles altogether. Students can create puzzles for themselves and the robots to solve together.
+Touch LED – A sensor with red, blue, and green LED's that can be turned on, off or left blinking at a desired rate. We will use this LED as a touch sensor to physically tell the robot when to run the program and when to turn off the program.
+Color Sensor – This sensor detects the color of objects in 256 levels of red, blue, and green. We use cards to control the activity of the program we created for the robot.
+Gyro Sensor – The Gyro sensor measures turn rates and can calculate direction. We can use this to program more accurate movement of our robots.
+	Learn how to change text color, size and style of font.
+The Clawbot IQ is the flagship robot of the VEX IQ kit. With the knowledge the students gain from simple machines, mechanisms, and programming, we will build and program the Clawbot IQ. The Clawbot IQ is able to not only lift objects and carry them to a designated spot autonomously; but also to use all of the sensors we learned about to react in a variety of ways to our environment. We can even use these robots to run some friendly competition amongst the groups in the class to see who can run the most innovative programs.
+The Clawbot IQ is not the only robot we can make with these kits however. Once the students have learned some of these core STEM principles, they can express their creativity to design their own robots which will be able to maneuver and react to their environment in a myriad of ways. At this point only their imagination is the limit.
+These scientific principles learned from STEM and the VEX IQ Robotics platform will not only allow students to build and design their own robots; but it will foster in them a curiosity about the way that machines work and what they can do to control the technology around them. It will also ultimately allow these students to become the technology based problem solvers of the future.
+Copyright © 2018 Computerwisekids. All Rights Reserved.
+<div style="display:inline;"><img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/826447835/?guid=ON&amp;script=0"/></div>
+Let's Talk!
+Thanks for stopping by! We're here to help, please don't hesitate to reach out.
+Get Directions
+Schedule Now
+Schedule Now
+Contact
+Get Directions
+Schedule Now

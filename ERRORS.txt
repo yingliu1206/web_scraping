@@ -1,0 +1,1386 @@
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 221, in click
+    driver.find_elements_by_xpath("//a[@href]")[self.index].click()
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 325, in worker
+    school.clickLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 113, in clickLinks
+    link.click(driver)
+  File "scripts/WebScraperThreaded.py", line 225, in click
+    link = driver.find_elements_by_xpath("//a[@href]")[self.index]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 221, in click
+    driver.find_elements_by_xpath("//a[@href]")[self.index].click()
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 325, in worker
+    school.clickLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 113, in clickLinks
+    link.click(driver)
+  File "scripts/WebScraperThreaded.py", line 225, in click
+    link = driver.find_elements_by_xpath("//a[@href]")[self.index]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 325, in worker
+    school.clickLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 127, in clickLinks
+    link.writeFile(self.filePath, 0)
+  File "scripts/WebScraperThreaded.py", line 255, in writeFile
+    file = open(str(filepath) + "/" + fileName + ".txt", "w")
+OSError: [Errno 36] File name too long: 'results/ACADEMY FOR SCIENCE AND DESIGN CHARTER SCHOOL/asdnh.org-syndication-rss.aspx?serverid=646946&userid=5&feed=datasummary&key=qbIZWPZFdVC1R9Q8EJ0AqJzkemUrJLDDbqbSqmQ4TeGVoj8yIBGSr%2bOWuFicQo7%2bfMtTlpUNbDsFW9FS7gz3Tw%3d%3d&target_object_id=647043&portal_id=647030&v=2.0&item_name=portlet_xml_title&item_description=portlet_xml_summary&item_pubdate=portlet_last_modified&max_items=8-.txt'
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 221, in click
+    driver.find_elements_by_xpath("//a[@href]")[self.index].click()
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 325, in worker
+    school.clickLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 113, in clickLinks
+    link.click(driver)
+  File "scripts/WebScraperThreaded.py", line 225, in click
+    link = driver.find_elements_by_xpath("//a[@href]")[self.index]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 325, in worker
+    school.clickLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 127, in clickLinks
+    link.writeFile(self.filePath, 0)
+  File "scripts/WebScraperThreaded.py", line 255, in writeFile
+    file = open(str(filepath) + "/" + fileName + ".txt", "w")
+OSError: [Errno 36] File name too long: 'results/ACADEMY FOR SCIENCE AND DESIGN CHARTER SCHOOL/asdnh.org-syndication-rss.aspx?serverid=646946&userid=5&feed=datasummary&key=qbIZWPZFdVC1R9Q8EJ0AqJzkemUrJLDDbqbSqmQ4TeGVoj8yIBGSr%2bOWuFicQo7%2bfMtTlpUNbDsFW9FS7gz3Tw%3d%3d&target_object_id=647043&portal_id=647030&v=2.0&item_name=portlet_xml_title&item_description=portlet_xml_summary&item_pubdate=portlet_last_modified&max_items=8-.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 325, in worker
+    school.clickLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 113, in clickLinks
+    link.click(driver)
+  File "scripts/WebScraperThreaded.py", line 214, in click
+    self.gatherText(driver)
+  File "scripts/WebScraperThreaded.py", line 196, in gatherText
+    page_source_replaced = driver.page_source
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 584, in page_source
+    return self.execute(Command.GET_PAGE_SOURCE)['value']
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 221, in click
+    driver.find_elements_by_xpath("//a[@href]")[self.index].click()
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 325, in worker
+    school.clickLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 113, in clickLinks
+    link.click(driver)
+  File "scripts/WebScraperThreaded.py", line 225, in click
+    link = driver.find_elements_by_xpath("//a[@href]")[self.index]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 325, in worker
+    school.clickLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 127, in clickLinks
+    link.writeFile(self.filePath, 0)
+  File "scripts/WebScraperThreaded.py", line 255, in writeFile
+    file = open(str(filepath) + "/" + fileName + ".txt", "w")
+OSError: [Errno 36] File name too long: 'results/ACADEMY FOR SCIENCE AND DESIGN CHARTER SCHOOL/asdnh.org-syndication-rss.aspx?serverid=646946&userid=5&feed=datasummary&key=qbIZWPZFdVC1R9Q8EJ0AqJzkemUrJLDDbqbSqmQ4TeGVoj8yIBGSr%2bOWuFicQo7%2bfMtTlpUNbDsFW9FS7gz3Tw%3d%3d&target_object_id=647043&portal_id=647030&v=2.0&item_name=portlet_xml_title&item_description=portlet_xml_summary&item_pubdate=portlet_last_modified&max_items=8-.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 325, in worker
+    school.clickLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 113, in clickLinks
+    link.click(driver)
+  File "scripts/WebScraperThreaded.py", line 214, in click
+    self.gatherText(driver)
+  File "scripts/WebScraperThreaded.py", line 196, in gatherText
+    page_source_replaced = driver.page_source
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 584, in page_source
+    return self.execute(Command.GET_PAGE_SOURCE)['value']
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 221, in click
+    driver.find_elements_by_xpath("//a[@href]")[self.index].click()
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 325, in worker
+    school.clickLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 113, in clickLinks
+    link.click(driver)
+  File "scripts/WebScraperThreaded.py", line 225, in click
+    link = driver.find_elements_by_xpath("//a[@href]")[self.index]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 325, in worker
+    school.clickLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 127, in clickLinks
+    link.writeFile(self.filePath, 0)
+  File "scripts/WebScraperThreaded.py", line 255, in writeFile
+    file = open(str(filepath) + "/" + fileName + ".txt", "w")
+OSError: [Errno 36] File name too long: 'results/ACADEMY FOR SCIENCE AND DESIGN CHARTER SCHOOL/asdnh.org-syndication-rss.aspx?serverid=646946&userid=5&feed=datasummary&key=qbIZWPZFdVC1R9Q8EJ0AqJzkemUrJLDDbqbSqmQ4TeGVoj8yIBGSr%2bOWuFicQo7%2bfMtTlpUNbDsFW9FS7gz3Tw%3d%3d&target_object_id=647043&portal_id=647030&v=2.0&item_name=portlet_xml_title&item_description=portlet_xml_summary&item_pubdate=portlet_last_modified&max_items=8-.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 325, in worker
+    school.clickLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 113, in clickLinks
+    link.click(driver)
+  File "scripts/WebScraperThreaded.py", line 214, in click
+    self.gatherText(driver)
+  File "scripts/WebScraperThreaded.py", line 196, in gatherText
+    page_source_replaced = driver.page_source
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 584, in page_source
+    return self.execute(Command.GET_PAGE_SOURCE)['value']
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 221, in click
+    driver.find_elements_by_xpath("//a[@href]")[self.index].click()
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 325, in worker
+    school.clickLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 113, in clickLinks
+    link.click(driver)
+  File "scripts/WebScraperThreaded.py", line 225, in click
+    link = driver.find_elements_by_xpath("//a[@href]")[self.index]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 325, in worker
+    school.clickLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 127, in clickLinks
+    link.writeFile(self.filePath, 0)
+  File "scripts/WebScraperThreaded.py", line 255, in writeFile
+    file = open(str(filepath) + "/" + fileName + ".txt", "w")
+OSError: [Errno 36] File name too long: 'results/ACADEMY FOR SCIENCE AND DESIGN CHARTER SCHOOL/asdnh.org-syndication-rss.aspx?serverid=646946&userid=5&feed=datasummary&key=qbIZWPZFdVC1R9Q8EJ0AqJzkemUrJLDDbqbSqmQ4TeGVoj8yIBGSr%2bOWuFicQo7%2bfMtTlpUNbDsFW9FS7gz3Tw%3d%3d&target_object_id=647043&portal_id=647030&v=2.0&item_name=portlet_xml_title&item_description=portlet_xml_summary&item_pubdate=portlet_last_modified&max_items=8-.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 325, in worker
+    school.clickLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 113, in clickLinks
+    link.click(driver)
+  File "scripts/WebScraperThreaded.py", line 214, in click
+    self.gatherText(driver)
+  File "scripts/WebScraperThreaded.py", line 196, in gatherText
+    page_source_replaced = driver.page_source
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 584, in page_source
+    return self.execute(Command.GET_PAGE_SOURCE)['value']
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 221, in click
+    driver.find_elements_by_xpath("//a[@href]")[self.index].click()
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 325, in worker
+    school.clickLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 113, in clickLinks
+    link.click(driver)
+  File "scripts/WebScraperThreaded.py", line 225, in click
+    link = driver.find_elements_by_xpath("//a[@href]")[self.index]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 325, in worker
+    school.clickLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 127, in clickLinks
+    link.writeFile(self.filePath, 0)
+  File "scripts/WebScraperThreaded.py", line 255, in writeFile
+    file = open(str(filepath) + "/" + fileName + ".txt", "w")
+OSError: [Errno 36] File name too long: 'results/ACADEMY FOR SCIENCE AND DESIGN CHARTER SCHOOL/asdnh.org-syndication-rss.aspx?serverid=646946&userid=5&feed=datasummary&key=qbIZWPZFdVC1R9Q8EJ0AqJzkemUrJLDDbqbSqmQ4TeGVoj8yIBGSr%2bOWuFicQo7%2bfMtTlpUNbDsFW9FS7gz3Tw%3d%3d&target_object_id=647043&portal_id=647030&v=2.0&item_name=portlet_xml_title&item_description=portlet_xml_summary&item_pubdate=portlet_last_modified&max_items=8-.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 325, in worker
+    school.clickLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 113, in clickLinks
+    link.click(driver)
+  File "scripts/WebScraperThreaded.py", line 214, in click
+    self.gatherText(driver)
+  File "scripts/WebScraperThreaded.py", line 196, in gatherText
+    page_source_replaced = driver.page_source
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 584, in page_source
+    return self.execute(Command.GET_PAGE_SOURCE)['value']
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 221, in click
+    driver.find_elements_by_xpath("//a[@href]")[self.index].click()
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 325, in worker
+    school.clickLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 113, in clickLinks
+    link.click(driver)
+  File "scripts/WebScraperThreaded.py", line 225, in click
+    link = driver.find_elements_by_xpath("//a[@href]")[self.index]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 325, in worker
+    school.clickLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 127, in clickLinks
+    link.writeFile(self.filePath, 0)
+  File "scripts/WebScraperThreaded.py", line 255, in writeFile
+    file = open(str(filepath) + "/" + fileName + ".txt", "w")
+OSError: [Errno 36] File name too long: 'results/ACADEMY FOR SCIENCE AND DESIGN CHARTER SCHOOL/asdnh.org-syndication-rss.aspx?serverid=646946&userid=5&feed=datasummary&key=qbIZWPZFdVC1R9Q8EJ0AqJzkemUrJLDDbqbSqmQ4TeGVoj8yIBGSr%2bOWuFicQo7%2bfMtTlpUNbDsFW9FS7gz3Tw%3d%3d&target_object_id=647043&portal_id=647030&v=2.0&item_name=portlet_xml_title&item_description=portlet_xml_summary&item_pubdate=portlet_last_modified&max_items=8-.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 325, in worker
+    school.clickLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 113, in clickLinks
+    link.click(driver)
+  File "scripts/WebScraperThreaded.py", line 214, in click
+    self.gatherText(driver)
+  File "scripts/WebScraperThreaded.py", line 196, in gatherText
+    page_source_replaced = driver.page_source
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 584, in page_source
+    return self.execute(Command.GET_PAGE_SOURCE)['value']
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 221, in click
+    driver.find_elements_by_xpath("//a[@href]")[self.index].click()
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 325, in worker
+    school.clickLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 113, in clickLinks
+    link.click(driver)
+  File "scripts/WebScraperThreaded.py", line 225, in click
+    link = driver.find_elements_by_xpath("//a[@href]")[self.index]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 325, in worker
+    school.clickLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 127, in clickLinks
+    link.writeFile(self.filePath, 0)
+  File "scripts/WebScraperThreaded.py", line 255, in writeFile
+    file = open(str(filepath) + "/" + fileName + ".txt", "w")
+OSError: [Errno 36] File name too long: 'results/ACADEMY FOR SCIENCE AND DESIGN CHARTER SCHOOL/asdnh.org-syndication-rss.aspx?serverid=646946&userid=5&feed=datasummary&key=qbIZWPZFdVC1R9Q8EJ0AqJzkemUrJLDDbqbSqmQ4TeGVoj8yIBGSr%2bOWuFicQo7%2bfMtTlpUNbDsFW9FS7gz3Tw%3d%3d&target_object_id=647043&portal_id=647030&v=2.0&item_name=portlet_xml_title&item_description=portlet_xml_summary&item_pubdate=portlet_last_modified&max_items=8-.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 325, in worker
+    school.clickLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 113, in clickLinks
+    link.click(driver)
+  File "scripts/WebScraperThreaded.py", line 214, in click
+    self.gatherText(driver)
+  File "scripts/WebScraperThreaded.py", line 196, in gatherText
+    page_source_replaced = driver.page_source
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 584, in page_source
+    return self.execute(Command.GET_PAGE_SOURCE)['value']
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 221, in click
+    driver.find_elements_by_xpath("//a[@href]")[self.index].click()
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 325, in worker
+    school.clickLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 113, in clickLinks
+    link.click(driver)
+  File "scripts/WebScraperThreaded.py", line 225, in click
+    link = driver.find_elements_by_xpath("//a[@href]")[self.index]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 325, in worker
+    school.clickLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 127, in clickLinks
+    link.writeFile(self.filePath, 0)
+  File "scripts/WebScraperThreaded.py", line 255, in writeFile
+    file = open(str(filepath) + "/" + fileName + ".txt", "w")
+OSError: [Errno 36] File name too long: 'results/ACADEMY FOR SCIENCE AND DESIGN CHARTER SCHOOL/asdnh.org-syndication-rss.aspx?serverid=646946&userid=5&feed=datasummary&key=qbIZWPZFdVC1R9Q8EJ0AqJzkemUrJLDDbqbSqmQ4TeGVoj8yIBGSr%2bOWuFicQo7%2bfMtTlpUNbDsFW9FS7gz3Tw%3d%3d&target_object_id=647043&portal_id=647030&v=2.0&item_name=portlet_xml_title&item_description=portlet_xml_summary&item_pubdate=portlet_last_modified&max_items=8-.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 325, in worker
+    school.clickLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 113, in clickLinks
+    link.click(driver)
+  File "scripts/WebScraperThreaded.py", line 214, in click
+    self.gatherText(driver)
+  File "scripts/WebScraperThreaded.py", line 196, in gatherText
+    page_source_replaced = driver.page_source
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 584, in page_source
+    return self.execute(Command.GET_PAGE_SOURCE)['value']
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 221, in click
+    driver.find_elements_by_xpath("//a[@href]")[self.index].click()
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 325, in worker
+    school.clickLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 113, in clickLinks
+    link.click(driver)
+  File "scripts/WebScraperThreaded.py", line 225, in click
+    link = driver.find_elements_by_xpath("//a[@href]")[self.index]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 325, in worker
+    school.clickLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 127, in clickLinks
+    link.writeFile(self.filePath, 0)
+  File "scripts/WebScraperThreaded.py", line 255, in writeFile
+    file = open(str(filepath) + "/" + fileName + ".txt", "w")
+OSError: [Errno 36] File name too long: 'results/ACADEMY FOR SCIENCE AND DESIGN CHARTER SCHOOL/asdnh.org-syndication-rss.aspx?serverid=646946&userid=5&feed=datasummary&key=qbIZWPZFdVC1R9Q8EJ0AqJzkemUrJLDDbqbSqmQ4TeGVoj8yIBGSr%2bOWuFicQo7%2bfMtTlpUNbDsFW9FS7gz3Tw%3d%3d&target_object_id=647043&portal_id=647030&v=2.0&item_name=portlet_xml_title&item_description=portlet_xml_summary&item_pubdate=portlet_last_modified&max_items=8-.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 325, in worker
+    school.clickLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 113, in clickLinks
+    link.click(driver)
+  File "scripts/WebScraperThreaded.py", line 214, in click
+    self.gatherText(driver)
+  File "scripts/WebScraperThreaded.py", line 196, in gatherText
+    page_source_replaced = driver.page_source
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 584, in page_source
+    return self.execute(Command.GET_PAGE_SOURCE)['value']
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 221, in click
+    driver.find_elements_by_xpath("//a[@href]")[self.index].click()
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 325, in worker
+    school.clickLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 113, in clickLinks
+    link.click(driver)
+  File "scripts/WebScraperThreaded.py", line 225, in click
+    link = driver.find_elements_by_xpath("//a[@href]")[self.index]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 325, in worker
+    school.clickLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 127, in clickLinks
+    link.writeFile(self.filePath, 0)
+  File "scripts/WebScraperThreaded.py", line 255, in writeFile
+    file = open(str(filepath) + "/" + fileName + ".txt", "w")
+OSError: [Errno 36] File name too long: 'results/ACADEMY FOR SCIENCE AND DESIGN CHARTER SCHOOL/asdnh.org-syndication-rss.aspx?serverid=646946&userid=5&feed=datasummary&key=qbIZWPZFdVC1R9Q8EJ0AqJzkemUrJLDDbqbSqmQ4TeGVoj8yIBGSr%2bOWuFicQo7%2bfMtTlpUNbDsFW9FS7gz3Tw%3d%3d&target_object_id=647043&portal_id=647030&v=2.0&item_name=portlet_xml_title&item_description=portlet_xml_summary&item_pubdate=portlet_last_modified&max_items=8-.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 325, in worker
+    school.clickLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 113, in clickLinks
+    link.click(driver)
+  File "scripts/WebScraperThreaded.py", line 214, in click
+    self.gatherText(driver)
+  File "scripts/WebScraperThreaded.py", line 196, in gatherText
+    page_source_replaced = driver.page_source
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 584, in page_source
+    return self.execute(Command.GET_PAGE_SOURCE)['value']
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/WebScraperThreaded.py", line 323, in worker
+    school.gatherLinks(driver, processNumber)
+  File "scripts/WebScraperThreaded.py", line 76, in gatherLinks
+    driver.get(self.mainURL)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/arjuns/.local/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : The server method 'GetEventList' failed.}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.26.436382 (70eb799287ce4c2208441fc057053a5b07ceabac),platform=Linux 4.4.0-119-generic x86_64)
+

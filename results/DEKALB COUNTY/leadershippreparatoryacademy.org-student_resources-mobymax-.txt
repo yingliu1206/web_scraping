@@ -1,0 +1,47 @@
+Sign In
+As a Student
+As a Teacher
+As a Parent
+As a School Administrator
+As a District Administrator
+As a Student
+As a Teacher
+As a Parent
+As a School Administrator
+As a District Administrator
+CHANGE SCHOOL
+Let's find your school first before signing in:
+School name
+Find
+OR
+School code
+Go
+Select your school:
+State
+City
+School
+Username
+Password
+Hide my typing
+Remember me on this computer
+SIGN IN
+Don't have a MobyMax account yet? Sign up today.
+Forgot your password?
+Need help?
+      	Need Help?        
+ 	Need help logging in? Call us at 888-793-8331. 
+      	Forgot Password?        
+Forgot your password? Enter your email address and we'll send you password reset instructions.          
+Your email address
+SEND
+A note about spam filters:
+        	If you don't get an email from us within a few minutes, please be sure to check your spam filter. The email will be coming from support@mobymax.com.        
+				Sign in with:			
+C
+Clever
+E
+Edmodo
+CL
+ClassLink
+GC
+Google Classroom

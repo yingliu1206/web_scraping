@@ -1,0 +1,101 @@
+        <style>            .dropdown-toggle:hover + .dropdown-menu { display:block; }            .navbar-header:hover + .collapse, .collapse:hover { display: block; }            .navbar-nav .dropdown-toggle:hover > .dropdown-menu { position: static; float: none; width: auto; margin-top: 0; background-color: transparent; -webkit-box-shadow: none; box-shadow: none; border: none; }            .dropdown-menu:hover { display: block; }        </style>    
+English
+Español
+Middle School
+High School
+Quest Home
+Sobre nosotros
+Asociaciones
+Directorio de Personal
+Office Hours
+Académica
+Academic Calendar
+STEM
+Ocupaciones
+Clubs
+FIRST Lego League
+FTC Robotics
+Annie Jr. Musical
+STEM Camp
+Atletismo
+Athletic Schedules
+Familias
+Transporte
+Políticas
+PTO
+School Supplies
+Physicals and Immunizations
+Academic Calendar
+Uniform Purchasing
+Family Seminars
+Administration of Medication
+Comments
+Fee Payment
+Quest Spiritwear
+5Essentials Survey
+Los Estudiantes
+Uniformes
+Breakfast Menu
+Menu del Almuerzo
+Manual del Estudiante
+Quest Spiritwear
+5Essentials Survey
+Project Hope
+Welcome to Quest
+Dear Parents, Students, and Community Members,
+Welcome to the 2017-2018 school year!  There are many exciting changes that will be taking place this year, not the least of which is our move to a balanced calendar, making our first full day of school, Tuesday, August 1. A balanced calendar is the exact same number of school days we have always had, they are simply more spaced out which results in more frequent breaks throughout the year, and a slightly shorter summer break. Being a charter school, Quest can, and is expected to try new, innovative and cutting-edge ideas. Our ultimate goal is outstanding academic achievement and ensuring our students are fully prepared for college and careers. We truly believe moving to a balanced calendar will result in higher retention of student learning, higher test scores, a higher attendance rate and fewer tardies, less teacher stress and turnover, increased staff communication and planning, and increased positive school culture.
+A second exciting change is the implementation of career academies at Quest High School. The career academies will take our high school students on a deep dive in a field of interest. All extra-curriculars, clubs and courses will be woven through the academies, providing our students with several hands-on, experiential learning opportunities throughout their high school years.
+Finally, we are also excited to announce the launch of the Summit Learning pilot in our 6th grade.  This very personalized approach to learning is going to be life changing for our students. We hope you will come to see learning happening in a very unique, one-to-one, personalized and flexible environment!
+If you are a community member or prospective parent and would like to visit us, please call. We would love to have our students give you a tour and tell you about their school. If you are a parent, I encourage you to fully participate in your child’s education by having a presence at school functions, volunteering at school, etc. We have an aggressive goal of having more than 75% parental involvement and we need your help!  Together, we can do amazing things for our scholars! 
+I wish you all the best this year.  We know that you have a choice in your child’s education, and we feel honored that you chose us.  Together we are on a “Quest to be the best”!  Welcome and enjoy the journey!
+Sincerely,
+Nicole Couri Wood, Ph.D.
+ Executive Director
+ Quest Charter Academy
+Read More
+Transporte
+La traducción de esta página aún no está disponible en Español. Esperámos tener la traducción en Español en un futuro próximo. Para su conveniencia, la versión en Inglés se muestra abajo.
+Transportation is a privilege and requires all students to maintain a safe bus environment. Eligible students are assigned to a specific bus route and pick-up/drop-off point which is determined by the official residence in Skyward. All students are expected to be at the assigned pick-up location at least 10 minutes prior to scheduled pick-up time. Students will follow the behavior expectations while on the bus and at the pick-up/drop-off point. Follow the bus driver’s directions and give him/her your respect. Infractions that cannot be resolved by the driver will be reported to the Administration. In order to maintain the safety of all riders as well as pedestrians and other cars, students in violation of the expectations jeopardize their bus riding privileges.
+For all transportation related issues, please contact Mrs. Kim Hanks, Middle School Assistant Principal and Quest Transportation Director at 309-222-8719 ext. 604
+                                        Quest Charter Academy
+                                        2503 N. University Ave. Peoria, IL 61604
+                                        Phone: (309) 402-0030
+                                        Fax: (309) 685-3001
+info@questpeoria.org
+Sobre nosotros
+Tablero
+Empleo
+Comunidad
+Personal
+Newsletter
+Skyward
+Donate
+Calendar
+                                        Quest High School
+                                        2503 N. University Ave. Peoria, IL 61604
+                                        Phone: (309) 402-0030
+                                        Fax: (309) 685-3001
+info@questpeoria.org
+Sobre nosotros
+Académica
+Universidad/Carrera
+Ocupaciones
+Atletismo
+Familias
+Los Estudiantes
+                                        Quest Middle School
+                                        2612 N. Bootz Ave. Peoria, IL 61604
+                                        Phone: (309) 222-8719
+                                        Fax : (309) 685-8801
+info@questpeoria.org
+Sobre nosotros
+Académica
+Ocupaciones
+Atletismo
+Familias
+Los Estudiantes
+Web Development and Hosting by 
+Stellar Systems, Inc.
+Site Map
+Sign in
+Signed in

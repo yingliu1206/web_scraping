@@ -1,0 +1,37 @@
+http://www.rosebudacademy.com/apps/news/category/4687		
+News and Announcements
+en-us
+SchoolSitePro
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<rss
+version="
+2.0">
+<channel>
+<title>
+News and Announcements (Pasadena Rosebud Academy)
+</title>
+<link>
+http://www.rosebudacademy.com/apps/news/category/4687
+</link>
+<link>
+...
+</link>
+<description>
+News and Announcements
+</description>
+<language>
+en-us
+</language>
+<generator>
+SchoolSitePro
+</generator>
+</channel>
+<channel>
+...
+</channel>
+</rss>
+<rss
+version="
+2.0">
+...
+</rss>

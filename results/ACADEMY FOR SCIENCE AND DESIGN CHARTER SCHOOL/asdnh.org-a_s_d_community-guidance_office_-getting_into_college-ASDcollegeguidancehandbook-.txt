@@ -1,0 +1,395 @@
+<div class="docs-butterbar-container"><div class="docs-butterbar-wrap"><div class="jfk-butterBar jfk-butterBar-shown jfk-butterBar-warning">JavaScript isn't enabled in your browser, so this file can't be opened. Enable and reload.</div></div><br></div>
+Some Word features can't be displayed in Google Docs and will be dropped if you make changes
+View Details
+College Guidance Handbook
+ Share
+Sign in
+File
+Edit
+View
+Tools
+Help
+Accessibility
+Debug
+See new changes
+Accessibility
+View only
+To enable screen reader support, press Ctrl+Alt+Z To learn about keyboard shortcuts, press Ctrl+slash
+ASD COLLEGE GUIDANCE HANDBOOK
+Portions Adapted from Guidance Director Nancy Maxwell at Wooster School
+Written by Jessica Golden
+ASD School Code: 300118
+Outline
+Headings you add to the document will appear here.
+ASD COLLEGE GUIDANCE HANDBOOK
+Table of Contents
+Research
+Evaluate
+Apply
+Introduction
+Application To Do List
+B.R.E.A.T.H.
+Brainstorm
+distance from home
+Research
+The Big List
+The Short List
+Evaluate Yourself
+Parent College Recommendation Brag Sheet
+APPLY
+Recommendations
+What about the interview?
+http://collegeapps.about.com/od/theartofgettingaccepted/tp/college-interview-questions.htm
+Testing
+REPORTING OF STANDARDIZED TEST SCORES
+Hold
+STEM, Local, State and National Scholarships
+Changes by
+Toggle screen reader support
+Main menu
+Afrikaans
+Azərbaycan
+Bahasa Indonesia
+Bahasa Melayu
+Català
+Čeština
+Dansk
+Deutsch
+Schweizer Hochdeutsch
+Eesti
+English (United Kingdom)
+English (United States)
+Español
+Español (Latinoamérica)
+Euskara
+Filipino
+Français
+Français (Canada)
+Galego
+Hrvatski
+Isizulu
+Íslenska
+Italiano
+Kiswahili
+Latviešu
+Lietuvių
+Magyar
+Malti
+Nederlands
+Norsk (Nynorsk)
+Norsk (Bokmål)
+Polski
+Português (Brasil)
+Português (Portugal)
+Română
+Slovenčina
+Slovenščina
+Suomi
+Svenska
+Tiếng Việt
+Türkçe
+беларуская
+Български
+Қазақ
+Монгол
+Русский
+Српски
+Українська
+Ελληνικά
+հայերեն
+עברית
+اردو
+العربية
+فارسی
+नेपाली
+मराठी
+हिन्दी
+বাংলা
+ਪੰਜਾਬੀ
+ગુજરાતી
+தமிழ்
+తెలుగు
+ಕನ್ನಡ
+മലയാളം
+සිංහල
+ไทย
+ລາວ
+ქართულად
+አማርኛ
+ខ្មែរ
+中文（中国）
+中文（台灣）
+中文（香港）
+日本語
+한국어
+E
+xport options disabled...
+Share...
+New
+►
+Open...
+Ctrl+O
+Make a 
+copy...
+Save as Google Docs
+(
+U)
+Download as
+►
+Em
+ail as attachment...
+Ma
+ke available offline
+Version 
+history
+►
+Rename...
+Move to...
+Edit description...
+(
+Y)
+Ctrl+Shift+E
+Move 
+to trash
+Publish to the 
+web...
+Email collaborators...
+Document details...
+(
+B)
+Language
+►
+Pa
+ge setup...
+Print pre
+view
+Print
+Ctrl+P
+E
+xport options disabled...
+Undo
+Ctrl+Z
+Redo
+Ctrl+Y
+Cu
+t
+Ctrl+X
+Copy
+Ctrl+C
+Paste
+Ctrl+V
+Paste with
+out formatting
+Ctrl+Shift+V
+Select 
+all
+Ctrl+A
+Print layout
+Mode
+►
+Show docume
+nt outline
+Ctrl+Alt+A Ctrl+Alt+H
+F
+ull screen
+Spelling
+►
+Word count
+Ctrl+Shift+C
+Review s
+uggested edits
+Ctrl+Alt+O Ctrl+Alt+U
+Explo
+re
+Ctrl+Alt+Shift+I
+Dictionary
+Ctrl+Shift+Y
+Keep 
+notepad
+Translate document...
+Voice typing...
+Ctrl+Shift+S
+Script 
+editor
+Preferences...
+Activity dashboard...
+(
+Z)
+Activit
+y dashboard privacy...
+Docs 
+Help
+Report a problem
+Report 
+abuse/copyright
+Keyboard shortcuts
+Ctrl+/
+Speak
+►
+E
+dits
+►
+Comments
+►
+Foot
+note
+►
+Headings
+►
+Graphics
+►
+List
+►
+Lin
+k
+►
+Table
+►
+Misspelling
+►
+F
+ormatting
+►
+S
+ettings
+►
+Single
+1.15
+1.5
+Double
+Custom
+Add space before paragraph
+Add space after paragraph
+Custom spacing...
+Anyone with the link
+Anyone who has the link can access. No sign-in required.
+Image Options
+Recolor
+No Recolor
+Adjustments
+Transparency
+Brightness
+Contrast
+Reset
+null
+Afrikaans
+Azərbaycan
+Bahasa Indonesia
+Bahasa Melayu
+Basa Jawa
+Basa Sunda
+Català
+Čeština
+Dansk
+Deutsch
+English (Australia)
+English (Canada)
+English (Ghana)
+English (India)
+English (Ireland)
+English (Kenya)
+English (New Zealand)
+English (Nigeria)
+English (Philippines)
+English (South Africa)
+English (Tanzania)
+English (United Kingdom)
+English (United States)
+Español
+Español (Argentina)
+Español (Bolivia)
+Español (Chile)
+Español (Colombia)
+Español (Costa Rica)
+Español (Ecuador)
+Español (El Salvador)
+Español (España)
+Español (Estados Unidos)
+Español (Guatemala)
+Español (Honduras)
+Español (Latinoamérica)
+Español (México)
+Español (Nicaragua)
+Español (Panamá)
+Español (Paraguay)
+Español (Perú)
+Español (Puerto Rico)
+Español (República Dominicana)
+Español (Uruguay)
+Español (Venezuela)
+Euskara
+Filipino
+Français
+Galego
+Hrvatski
+Isizulu
+Íslenska
+Italiano
+Italiano (Italia)
+Italiano (Svizzera)
+Kiswahili (Kenya)
+Kiswahili (Tanzania)
+Latviešu
+Lietuvių
+Magyar
+Nederlands
+Norsk (Bokmål)
+Polski
+Português (Brasil)
+Português (Portugal)
+Română
+Slovenčina
+Slovenščina
+Suomi
+Svenska
+Tiếng Việt
+Türkçe
+Ελληνικά
+Български
+Русский
+Српски
+Українська
+հայերեն
+עברית
+(اردو (بھارت
+(اردو (پاکستان
+العربية
+(العربية (إسرائيل
+(العربية (الأردن
+(العربية (الإمارات
+(العربية (البحرين
+(العربية (الجزائر
+(العربية (السعودية
+(العربية (الكويت
+(العربية (المغرب
+(العربية (تونس
+(العربية (عُمان
+(العربية (فلسطين
+(العربية (قطر
+(العربية (لبنان
+(العربية (مصر
+فارسی
+नेपाली
+मराठी
+हिन्दी
+বাংলা (বাংলাদেশ)
+বাংলা (ভারত)
+ગુજરાતી
+தமிழ் (இந்தியா)
+தமிழ் (இலங்கை)
+தமிழ் (சிங்கப்பூர்)
+தமிழ் (மலேஷியா)
+తెలుగు
+ಕನ್ನಡ
+മലയാളം
+සිංහල
+ไทย
+ລາວ
+ქართულად
+አማርኛ
+ខ្មែរ
+中文（中国）
+中文（台灣）
+中文（香港）
+日本語
+한국어
