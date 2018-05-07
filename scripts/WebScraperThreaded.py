@@ -2,11 +2,9 @@ import csv
 import datetime
 import multiprocessing
 import os
-import sys
 import time
 import traceback
 from sys import platform
-from unicodedata import normalize
 
 'Driver'
 from selenium import webdriver
@@ -208,8 +206,6 @@ class Link(object):
         [s.extract() for s in soup(['style', 'script', 'head', 'title', 'meta', '[document]'])]
         visible_text = soup.getText(random_string).replace("\n", "")
         visible_text = visible_text.split(random_string)
-        visible_text = list(normalize("NFKC", elem.replace("\t", "")) for elem in visible_text.split(random_string))
-
         self.text = "\n".join(list(filter(lambda vt: vt.split() != [], visible_text)))
 
     def click(self, driver) -> bool:
@@ -305,7 +301,23 @@ def prepDriver() -> list:
 
 
 # Worker function for each core
+
+
+def assign_indexes(numberOfThreads: int, numberOfSchools: int):
+    # Divides up the work of scraping schools between available threads
+    # Last core will have more work to do if numberOfSchools % numberOfCores != 0
+    result = []
+    scaler = int(numberOfSchools / numberOfThreads)
+
+    for i in range(1, numberOfThreads + 1):
+        result.append([scaler * (i - 1), (scaler * i) - 1])
+
+    if numberOfSchools % numberOfThreads != 0:
+        result[len(result) - 1][1] = numberOfSchools - 1
+    return result
+
 def worker(processNumber, schools, driver, display=None, fileName=None):
+    index = 0
     try:
         for school in schools:
             school.gatherLinks(driver, processNumber)
@@ -315,6 +327,7 @@ def worker(processNumber, schools, driver, display=None, fileName=None):
             schoolTimeElapsed = endTime - schoolStartTime
             specialPrint("Elapsed Time :%s (seconds) %s (minutes)" % (
                 str(schoolTimeElapsed), str(schoolTimeElapsed / 60)), processNumber)
+            index += 1
             totalNumberOfLinks[processNumber] += school.totalNumberofLinks
             numberofLinksClicked[processNumber] += school.linksClicked
             htmlLinks[processNumber] += school.htmlLinks
@@ -353,24 +366,11 @@ def worker(processNumber, schools, driver, display=None, fileName=None):
             tempDiagnosticsFile.close()
             """
     except Exception as e:
-        print("Thread " + str(processNumber) + " ran into an exception")
-        traceback.print_exc(file=sys.stdout)
-
-
-def assign_indexes(numberOfThreads: int, numberOfSchools: int):
-    # Divides up the work of scraping schools between available threads
-    # Last core will have more work to do if numberOfSchools % numberOfCores != 0
-    result = []
-    scaler = int(numberOfSchools / numberOfThreads)
-
-    for i in range(1,numberOfThreads+1):
-        result.append([scaler * (i - 1), (scaler * i) - 1])
-
-
-    if numberOfSchools % numberOfThreads != 0:
-        result[len(result) - 1][1] = numberOfSchools - 1
-    return result
-
+        print("Thread " + str(processNumber) + " ran into an exception on school " + str(schools[index]))
+        e = traceback.format_exc()
+        errors.write(e)
+        print(e)
+        worker(processNumber, schools[index + 1:], driver, display, fileName)
 
 # This line may cause a warning in certain IDEs saying something like "__main__ does not exist" Ignore this warning
 if __name__ == '__main__':
@@ -389,6 +389,7 @@ if __name__ == '__main__':
     "Time doesn't really account for timezones now, many be an issue later"
     now = datetime.datetime.now()
     formattedTime = now.strftime("%Y-%m-%d %H:%M:%S")
+    errors = open("ERRORS.txt", "w")
     diagnosticsFile = open("diagnostics/" + str(formattedTime) + ".txt", "w")
     diagnosticsFile.write("Program was run at " + formattedTime + "\n")
     startTime = time.time()
