@@ -378,7 +378,7 @@ if __name__ == '__main__':
         os.mkdir("results")
     if not checkPathExists("diagnostics"):
         os.mkdir("diagnostics")
-    schools = readCSV("data/threadingTestData.csv")
+    schools = readCSV("data/micro-sample13_coded.csv")
     numberofLinksClicked = 0
     totalNumberOfLinks = 0
     htmlLinks = 0
