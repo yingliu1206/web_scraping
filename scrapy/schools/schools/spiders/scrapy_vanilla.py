@@ -190,11 +190,8 @@ class CharterSchoolSpider(CrawlSpider):
                 domain = self.get_domain(url)
                 # set instance attributes
                 self.start_urls.append(url)
-<<<<<<< HEAD
                 self.allowed_domains.append(domain) 
-=======
                 self.allowed_domains.append(url) # use `domain` to get top level
->>>>>>> df7d3c4ebd2b230973ad9d6050dc430238bfebcf
                 # note: float('3.70014E+11') == 370014000000.0
                 self.domain_to_id[domain] = float(school_id)
 
@@ -247,7 +244,7 @@ class CharterSchoolSpider(CrawlSpider):
         # Replace all consecutive spaces (including in unicode), tabs, or "|"s with a single space
         filtered_text = regex.sub(r"[ \t\h\|]+", " ", filtered_text)
         # Replace any consecutive linebreaks with a single newline
-        filtered_text = regex.sub(r"[\n\r\f\v]+", "\n", filtered_text)
+        filtered_text = regex.sub(r"( *[\n\r\f\v]+ *)+", "\n", filtered_text)
         # Remove json strings: https://stackoverflow.com/questions/21994677/find-json-strings-in-a-string
         filtered_text = regex.sub(r"{(?:[^{}]*|(?R))*}", " ", filtered_text)
 
