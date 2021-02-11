@@ -13,9 +13,9 @@ SPIDER_MODULES = ['schools.spiders']
 NEWSPIDER_MODULE = 'schools.spiders'
 
 # How to log spider output
-LOG_ENABLED = True
-LOG_LEVEL = 'INFO'
-LOG_FILE = 'schoolspider_log.log'
+#LOG_ENABLED = True
+#LOG_LEVEL = 'INFO'
+#LOG_FILE = 'schoolspider_log.log'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
@@ -102,13 +102,14 @@ AUTOTHROTTLE_DEBUG = False
 # Item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
+    'schools.pipelines.MyImagesPipeline': 1,
+#    'schools.pipelines.MyFilesPipeline': 2,
     'schools.pipelines.CustomImagesPipeline': 3,
     'schools.pipelines.CustomFilesPipeline': 4
+#    'schools.pipelines.MongoDBPipeline': 300,
 }
-#    'schools.pipelines.MongoDBPipeline': 3, 
-
 # running locally without containers
-# MONGO_URI = 'mongodb://localhost' 
+#MONGO_URI = 'mongodb://localhost:27017' 
 # connect to MongoDB which is running in mongodb_container.
 #MONGO_URI = 'mongodb://mongodb_container:27017'
 

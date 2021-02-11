@@ -32,30 +32,43 @@ pip3 install -r requirements.txt
 If you want to store results into MongoDB, ensure that:
 
 ```python
-'schools.pipelines.MongoDBPipeline': 3
+'schools.pipelines.MongoDBPipeline': 300
 ```
-is one of the key-value pairs of `ITEM_PIPELINES` in `/web_scraping/scrapy/schools/schools/settings.py`. If you don't want to use the pipeline, remove the element.
+is one of the key-value pairs of `ITEM_PIPELINES` in `/web_scraping/scrapy/schools/schools/settings.py` by uncommenting the line. If you don't want to use the pipeline, remove the element.
 
 Furthermore, ensure that in `/web_scraping/scrapy/schools/schools/settings.py`, that:
 ```python
 # This next line must NOT be commented.
-MONGO_URI = 'mongodb://localhost' 
+MONGO_URI = 'mongodb://localhost:27017' 
 # This next line is commented.
 # MONGO_URI = 'mongodb://mongodb_container:27017'
+
+Also, ensure the line
+MONGO_DATABASE = 'schoolSpider'
+is uncommented.
 ```
 Start MongoDB. This step depends on the operating system. On Ubuntu 18.04, this is:
 ```bash
 sudo systemctl -l start mongodb
 ```
+With Docker, you can start it with:
+```bash
+docker pull mongo
+docker run -p 27017:27017 --name mongodb mongo
+```
+To stop MongoDB running in Docker:
+```bash
+docker stop mongodb
+```
 
 Finally to run, navigate to `/web_scraping/scrapy/schools/schools/` and run:
 
 ```bash
-scrapy crawl schoolspider -a csv_input=spiders/test_urls.csv -o schoolspider_output.json
+scrapy crawl schoolspider -a school_list=spiders/test_urls.csv -o schoolspider_output.json
 ```
 
-This line means to run the schoolspider crawler with the given csv input file
-and append the output to a json file. Note that subsequent runs of the crawler will append output, rather than replace. 
+This line means to run the schoolspider crawler with the given csv or tsv input file
+and append the output to a json file. Note that subsequent runs of the crawler wsill append output, rather than replace. 
 Appending to a json file is optional and the crawler can be run without doing this. Not specified in this command, is that data is saved behind the scenes
 to a MongoDB database named "schoolSpider" if the MongoDB pipeline is used.
 
@@ -76,12 +89,15 @@ If you want to use MongoDB, ensure that in `/web_scraping/scrapy/schools/schools
 # MONGO_URI = 'mongodb://localhost' 
 # This next line must NOT be commented.
 MONGO_URI = 'mongodb://mongodb_container:27017'
+
+Also, ensure that you uncomment the line:
+MONGO_DATABASE = 'schoolSpider'
 ```
 And, that:
 ```python
-'schools.pipelines.MongoDBPipeline': 3
+'schools.pipelines.MongoDBPipeline': 300
 ```
-is one of the key-value pairs in of `ITEM_PIPELINES` in `/web_scraping/scrapy/schools/schools/settings.py`. If you don't want to use the pipeline, remove the element.
+is one of the key-value pairs in of `ITEM_PIPELINES` in `/web_scraping/scrapy/schools/schools/settings.py` by uncommenting the line. If you don't want to use the pipeline, remove the element.
 
 Finally, inside `/web_scraping`, run:
 ```bash
@@ -92,6 +108,14 @@ docker-compose down
 ```
 No output json file is created through this method. Rather, the primary method of storing data is through MongoDB
 (if it's enabled). Data inside MongoDB is persisted through a volume defined in `docker-compose.yml`.
+
+The Mongo container can be easily accessed by "exec"ing into the container:
+```bash
+docker exec -it mongodb_container bash
+```
+Note: if running on a Windows machine, you will need to prefix that command with 'winpty'
+
+From there, you can enter 'mongo' to start the Mongo CLI within the container, and it can be navigated the same as Mongo on your computer.
 
 
 ## Updates to come
