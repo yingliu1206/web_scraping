@@ -313,9 +313,9 @@ class CharterSchoolSpider(CrawlSpider):
             print("No Response HTML. Domain is: " + str(domain) + " \nand URL is: " + str(response.url))
             extracted_links = []
             # If the url is not part of the domain being scraped ("something.com/this.pdf" vs "someother.org/"), don't include it
-            if not response.url.startswith('/') and domain not in response.url:
-                extracted_links = []
-            elif 'application/pdf' in str(response.headers['Content-Type']):
+            #if not response.url.startswith('/') and domain not in response.url:
+            #    extracted_links = []
+            if 'application/pdf' in str(response.headers['Content-Type']):
                 if response.url.endswith('/'):
                     file_url = response.url[:-1] + '.pdf'
                 else:
@@ -375,9 +375,9 @@ class CharterSchoolSpider(CrawlSpider):
 
         # If the url is not part of the domain being scraped ("something.com/this.pdf" vs "someother.org/"), don't include it
         # This logic is very basic and a starting point for further development of ensuring that we are still on the same page. TODO: improve domain splitting/comparing logic to avoid hitting external sites
-        if not str(href).startswith('/') and str(parent_url).split(".")[1] != str(href).split(".")[1]:
-            print("Danger! File source is from an external site. Source: " + str(href) + " \n\tand parent url: " + str(parent_url))
-            return ''
+        #if not str(href).startswith('/') and str(parent_url).split(".")[1] != str(href).split(".")[1]:
+        #    print("Danger! File source is from an external site. Source: " + str(href) + " \n\tand parent url: " + str(parent_url))
+        #    return ''
         # Parse text from file and add to .txt file AND item
         print("Requesting the file data from its source: " + str(href) + " \n\tat the parent url: " + str(parent_url))
         response_href = requests.get(href)
