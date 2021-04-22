@@ -375,8 +375,15 @@ class CharterSchoolSpider(CrawlSpider):
 
         # If the url is not part of the domain being scraped ("something.com/this.pdf" vs "someother.org/"), don't include it
         # This logic is very basic and a starting point for further development of ensuring that we are still on the same page. TODO: improve domain splitting/comparing logic to avoid hitting external sites
-        if not str(href).startswith('/') and str(parent_url).split(".")[1] != str(href).split(".")[1]:
-            print("Danger! File source is from an external site. Source: " + str(href) + " \n\tand parent url: " + str(parent_url))
+        #if not str(href).startswith('/') and str(parent_url).split(".")[1] != str(href).split(".")[1]:
+        #    print("Danger! File source is from an external site. Source: " + str(href) + " \n\tand parent url: " + str(parent_url))
+        #    return ''
+
+        if str(href).startswith('/') and not path_exists(str(parent_url), str(href)):
+            print("Could not find the file " + str(href) + " at the url " + str(parent(url)))
+            return ''
+        elif not str(href).startswith('/') and not path_exists(str(href)):
+            print("Could not find the file " + str(href))
             return ''
         # Parse text from file and add to .txt file AND item
         print("Requesting the file data from its source: " + str(href) + " \n\tat the parent url: " + str(parent_url))
@@ -407,6 +414,16 @@ class CharterSchoolSpider(CrawlSpider):
         base_url = self.get_domain(parent_url)
         print("Text extracted sucessfully!")
         return extracted_data
+    # From https://stackoverflow.com/questions/2486145/python-check-if-url-to-jpg-exists
+    # Check if there is actually a file or image at the given url, so we don't waste our time!
+    # Modified to reflect our two cases: URLs that we get which are extensions off of a domain, and urls that are the direct link to the path
+    def path_exists(site, path=''):
+        conn = httplib.HTTPConnection(site)
+        conn.request('HEAD', path)
+        response = conn.getresponse()
+        conn.close()
+        return response.status == 200
+
         '''
         # Create a filepath for the .txt file
         txt_file_name = "files" + "/" + base_url + "/" + os.path.basename(urlparse(href).path).replace(extension, ".txt")
