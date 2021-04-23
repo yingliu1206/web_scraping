@@ -104,7 +104,7 @@ AUTOTHROTTLE_DEBUG = False
 ITEM_PIPELINES = {
     'schools.pipelines.CustomImagesPipeline': 3,
     'schools.pipelines.CustomFilesPipeline': 4,
-    'schools.pipelines.MongoDBPipeline': 300,
+    #'schools.pipelines.MongoDBPipeline': 300,
 }
 # running locally without containers
 MONGO_URI = 'mongodb://localhost:27017' 

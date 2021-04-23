@@ -58,12 +58,14 @@ from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import Rule, CrawlSpider
 from scrapy.exceptions import NotSupported
 
-from schools.items import CharterItem
+from items import CharterItem
+
+
+from scrapy.http import Request
 
 # The following are required for parsing File text
 
 import os
-from schools.items import CharterItem
 from tempfile import NamedTemporaryFile
 import textract
 from itertools import chain
@@ -129,11 +131,21 @@ class CharterSchoolSpider(CrawlSpider):
         """
         super(CharterSchoolSpider, self).__init__(*args, **kwargs)
         self.start_urls = []
+        print("Start URLs")
+        print(self.start_urls)
         self.allowed_domains = []
         self.rules = (Rule(CustomLinkExtractor(allow_domains = self.allowed_domains), follow=True, callback="parse_items"),)
+        print("Allowed Domains")
+        print(self.allowed_domains)
         self.domain_to_id = {}
         self.init_from_school_list(school_list)
         
+#    def parse(self, response):
+#        hxs = HtmlXPathSelector(response)
+#        links = hxs.select('//a')
+#        for link in links:
+#            url = ''.join(link.select('./@href').extract())
+#            yield Request(url, callback=self.parse_items)
 
     # note: make sure we ignore robot.txt
     # Method for parsing items
@@ -144,7 +156,12 @@ class CharterSchoolSpider(CrawlSpider):
         item['text'] = self.get_text(response)
         domain = self.get_domain(response.url)    
 
-        item['school_id'] = self.domain_to_id[domain]
+        try:
+            item['school_id'] = self.domain_to_id[domain]
+        except:
+            print("School ID not found. Was this called with ScrapyRT?")
+            item['school_id'] = abs(hash(domain)) % (10 ** 8)
+            # How should we handle school ids when they are sent from the api or something? It seems like most schools have placeholder ids anyways, so why not use the hash of their domains?
         # uses DepthMiddleware
         item['depth'] = response.request.meta['depth']
         print("Domain Name: ", domain)
