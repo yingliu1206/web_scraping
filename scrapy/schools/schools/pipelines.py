@@ -224,78 +224,78 @@ class MongoDBTextPipeline(object):
     
 # TODO: add error handling
 
-class MongoDBPipeline(object):
+# class MongoDBPipeline(object):
 
-    collection_name = 'outputItems'
+#     collection_name = 'outputItems'
 
-    def __init__(self, mongo_uri, mongo_db, mongo_user='admin', mongo_pwd='', mongo_repl = False, mongo_repl_name=''):
-        self.mongo_uri = mongo_uri
-        self.mongo_db = mongo_db
-        self.mongo_user = mongo_user
-        self.mongo_password = mongo_pwd
-        self.mongo_replication = mongo_repl
-        self.mongo_replica_set_name=mongo_repl_name
+#     def __init__(self, mongo_uri, mongo_db, mongo_user='admin', mongo_pwd='', mongo_repl = False, mongo_repl_name=''):
+#         self.mongo_uri = mongo_uri
+#         self.mongo_db = mongo_db
+#         self.mongo_user = mongo_user
+#         self.mongo_password = mongo_pwd
+#         self.mongo_replication = mongo_repl
+#         self.mongo_replica_set_name=mongo_repl_name
 
-    @classmethod
-    def from_crawler(cls, crawler):
-        # pull in information from settings.py
-        return cls(
-            mongo_uri=crawler.settings.get('MONGO_URI'),
-            mongo_db=crawler.settings.get('MONGO_DATABASE', 'items'),
-            mongo_user=crawler.settings.get('MONGO_USERNAME'),
-            mongo_pwd=crawler.settings.get('MONGO_PASSWORD'),
-            mongo_repl=crawler.settings.get('MONGO_REPLICATION'),
-            mongo_repl_name=crawler.settings.get('MONGO_REPLICA_SET')
-        )
+#     @classmethod
+#     def from_crawler(cls, crawler):
+#         # pull in information from settings.py
+#         return cls(
+#             mongo_uri=crawler.settings.get('MONGO_URI'),
+#             mongo_db=crawler.settings.get('MONGO_DATABASE', 'items'),
+#             mongo_user=crawler.settings.get('MONGO_USERNAME'),
+#             mongo_pwd=crawler.settings.get('MONGO_PASSWORD'),
+#             mongo_repl=crawler.settings.get('MONGO_REPLICATION'),
+#             mongo_repl_name=crawler.settings.get('MONGO_REPLICA_SET')
+#         )
 
-    def open_spider(self, spider):
-        # initializing spider
-        # opening db connection
-        print("MONGO URI: " + str(self.mongo_uri))
-        if self.mongo_replication:
-            self.client = pymongo.MongoClient(self.mongo_uri, replicaSet = self.mongo_replica_set_name, username = self.mongo_user, password = self.mongo_password)
-        else:
-            self.client = pymongo.MongoClient(self.mongo_uri, username=self.mongo_user, password=self.mongo_password)
-        print("MONGO CLIENT SET UP SUCCESSFULLY")
-        print("Self MONGO DB: " + str(self.mongo_db))
-        self.db = self.client[self.mongo_db]
-        print("CONNECTED TO MONGO DB")
+#     def open_spider(self, spider):
+#         # initializing spider
+#         # opening db connection
+#         print("MONGO URI: " + str(self.mongo_uri))
+#         if self.mongo_replication:
+#             self.client = pymongo.MongoClient(self.mongo_uri, replicaSet = self.mongo_replica_set_name, username = self.mongo_user, password = self.mongo_password)
+#         else:
+#             self.client = pymongo.MongoClient(self.mongo_uri, username=self.mongo_user, password=self.mongo_password)
+#         print("MONGO CLIENT SET UP SUCCESSFULLY")
+#         print("Self MONGO DB: " + str(self.mongo_db))
+#         self.db = self.client[self.mongo_db]
+#         print("CONNECTED TO MONGO DB")
 
-    def close_spider(self, spider):
-        # clean up when spider is closed
-        self.client.close()
-        print("Mongo Client closed")
+#     def close_spider(self, spider):
+#         # clean up when spider is closed
+#         self.client.close()
+#         print("Mongo Client closed")
 
-    def process_item(self, item, spider):
-        """
-        For each CharterItem item, insert the item into the specified
-        collection of the MongoDB database. If the item
-        already exists, replace it (this prevents duplicates).
+#     def process_item(self, item, spider):
+#         """
+#         For each CharterItem item, insert the item into the specified
+#         collection of the MongoDB database. If the item
+#         already exists, replace it (this prevents duplicates).
         
-        To check if an item already exists, filter by the item's
-        url field.
-        """
-        print("Processing item...")
-        # Only store CharterItems.
+#         To check if an item already exists, filter by the item's
+#         url field.
+#         """
+#         print("Processing item...")
+#         # Only store CharterItems.
 
-        adapted_item = ItemAdapter(item).asdict()
-        adapted_item.update({
-                "user": spider.user if hasattr(spider,"user") else None, 
-                "rq_id": spider.rq_id if hasattr(spider,"rq_id") else None
-            })
+#         adapted_item = ItemAdapter(item).asdict()
+#         adapted_item.update({
+#                 "user": spider.user if hasattr(spider,"user") else None, 
+#                 "rq_id": spider.rq_id if hasattr(spider,"rq_id") else None
+#             })
 
-        if not isinstance(item, CharterItem):
-            print("Not an instance of CharterItem")
-            print(item['url'])
-            self.db['otherItems'].replace_one({'url': item['url']}, adapted_item, upsert=True)
-            return item
-        # Finds the document with the matching url.
-        query = {'url': item['url']}
-        # upsert=True means insert the document if the query doesn't find a match.
-        self.db[self.collection_name].replace_one(
-            query, adapted_item, upsert=True
-        )
-#        self.db[self.collection_name].insert(dict(item))
-        logging.debug(f"MongoDB: Inserted {item['url']}.")
-        return item
+#         if not isinstance(item, CharterItem):
+#             print("Not an instance of CharterItem")
+#             print(item['url'])
+#             self.db['otherItems'].replace_one({'url': item['url']}, adapted_item, upsert=True)
+#             return item
+#         # Finds the document with the matching url.
+#         query = {'url': item['url']}
+#         # upsert=True means insert the document if the query doesn't find a match.
+#         self.db[self.collection_name].replace_one(
+#             query, adapted_item, upsert=True
+#         )
+# #        self.db[self.collection_name].insert(dict(item))
+#         logging.debug(f"MongoDB: Inserted {item['url']}.")
+#         return item
         
