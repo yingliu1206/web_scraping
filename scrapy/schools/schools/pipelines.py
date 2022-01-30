@@ -159,66 +159,35 @@ class MongoDBTextPipeline(object):
             MONGO_USERNAME = crawler.settings.get('MONGO_USERNAME'),
             MONGO_PASSWORD = crawler.settings.get('MONGO_PASSWORD')
         )
-
+   
     def process_item(self, item, spider):
-        valid = True
-        for data in item:
-            if not data:
-                valid = False
-                raise DropItem("Missing {0}!".format(data))
-        if valid:
-            connection = pymongo.MongoClient(
-                self.MONGO_URI,
-                username=self.MONGO_USERNAME, 
-                password=self.MONGO_PASSWORD
-            )
-            self.db = connection[self.MONGODB_DB]
-            print("CONNECTED TO MONGO DB")
-            #self.collection = self.db[self.MONGODB_COLLECTION_TEXT]
-
-            self.grid_fs = gridfs.GridFS(self.db, collection = self.MONGODB_COLLECTION_TEXT)
-            
-            links = item['url']
-            for link in links:
-                mime_type = mimetypes.guess_type(link)[0]
-                request = requests.get(link, stream=True)
-                self.grid_fs.put(request.raw, contentType=mime_type, 
-                    user = spider.user if hasattr(spider,"user") else None, 
-                    rq_id = spider.rq_id if hasattr(spider,"rq_id") else None, 
-                    filename = os.path.basename(link), bucketName = "text")
-       
-            logging.debug(f"MongoDB: Inserted {item['url']}.")
+        print("Processing item...")
+        self.connection = pymongo.MongoClient(
+            self.MONGO_URI,
+            username=self.MONGO_USERNAME, 
+            password=self.MONGO_PASSWORD
+        )
+        self.db = self.connection[self.MONGODB_DB]
+        print("CONNECTED TO MONGO DB")
+        self.collection = self.db[self.MONGODB_COLLECTION_TEXT]
         
+        # Only store CharterItems.
+        if not isinstance(item, CharterItem):
+            print("Not an instance of CharterItem")
+            print(item['url'])
+            self.db['otherItems'].replace_one({'url': item['url']}, ItemAdapter(item).asdict(), upsert=True)
+            return item
+        # Finds the document with the matching url.
+        query = {'url': item['url']}
+        # upsert=True means insert the document if the query doesn't find a match.
+        self.collection.replace_one(
+            query,
+            ItemAdapter(item).asdict(),
+            upsert=True
+        )
+        self.collection.insert(dict(item))
+        logging.debug(f"MongoDB: Inserted {item['url']}.")
         return item
-    
-#     def process_item(self, item, spider):
-#         print("Processing item...")
-#         self.connection = pymongo.MongoClient(
-#             self.MONGO_URI,
-#             username=self.MONGO_USERNAME, 
-#             password=self.MONGO_PASSWORD
-#         )
-#         self.db = self.connection[self.MONGODB_DB]
-#         print("CONNECTED TO MONGO DB")
-#         self.collection = self.db[self.MONGODB_COLLECTION_TEXT]
-        
-#         # Only store CharterItems.
-#         if not isinstance(item, CharterItem):
-#             print("Not an instance of CharterItem")
-#             print(item['url'])
-#             self.db['otherItems'].replace_one({'url': item['url']}, ItemAdapter(item).asdict(), upsert=True)
-#             return item
-#         # Finds the document with the matching url.
-#         query = {'url': item['url']}
-#         # upsert=True means insert the document if the query doesn't find a match.
-#         self.collection.replace_one(
-#             query,
-#             ItemAdapter(item).asdict(),
-#             upsert=True
-#         )
-#         self.db[self.collection_name].insert(dict(item))
-#         logging.debug(f"MongoDB: Inserted {item['url']}.")
-#         return item
     
     
 # TODO: add error handling
