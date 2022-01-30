@@ -159,7 +159,7 @@ class MongoDBTextPipeline(object):
             MONGO_USERNAME = crawler.settings.get('MONGO_USERNAME'),
             MONGO_PASSWORD = crawler.settings.get('MONGO_PASSWORD')
         )
-   
+            
     def process_item(self, item, spider):
         print("Processing item...")
         self.connection = pymongo.MongoClient(
@@ -185,7 +185,7 @@ class MongoDBTextPipeline(object):
             ItemAdapter(item).asdict(),
             upsert=True
         )
-        self.collection.insert(dict(item))
+#        self.db[self.collection_name].insert(dict(item))
         logging.debug(f"MongoDB: Inserted {item['url']}.")
         return item
     
