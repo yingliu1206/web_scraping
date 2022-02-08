@@ -17,4 +17,4 @@ if __name__ == '__main__':
     cursor = collection.find()
     df = pd.DataFrame(list(cursor))
     
-    df.to_csv('text.csv')
+    df.to_csv('./scrapy/schools/schools/text.csv')
