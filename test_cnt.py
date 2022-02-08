@@ -29,10 +29,12 @@ if __name__ == '__main__':
     # get a list of domains from scraped urls
     db_url_domain = []
     for ducument in cursor:
-        domain = urlparse(ducument['url']).netloc
-        print(domain)
+        print(ducument['url'])
+        #domain = urlparse(ducument['url']).netloc
         #db_url_domain.append(domain)
 
 #    for i in domain_2019:
 #       if i not in db_url_domain:
 #            print(i)
+        
+        
