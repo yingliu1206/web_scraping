@@ -34,4 +34,5 @@ if __name__ == '__main__':
     
     # check what urls have not been scrpaed
     remaining_domain = list(set(domain_2019) - set(db_url_domain))
-    print(len(remaining_domain))
+    print(len(list(set(domain_2019))))
+    print(remaining_domain)
