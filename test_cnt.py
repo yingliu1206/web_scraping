@@ -16,4 +16,3 @@ if __name__ == '__main__':
     collection = db[col]
     cursor = collection.find({},{"url":1})
     print(type(cursor))
-    print(len(cursor))
