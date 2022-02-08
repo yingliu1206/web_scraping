@@ -30,9 +30,9 @@ if __name__ == '__main__':
     db_url_domain = []
     for ducument in cursor:
         domain = urlparse(ducument['url']).netloc
-        db_url_domain.append(domain)
+        print(domain)
+        #db_url_domain.append(domain)
 
-    for i in domain_2019:
-        if i not in db_url_domain:
-            print(i)
-        
+#    for i in domain_2019:
+#       if i not in db_url_domain:
+#            print(i)
