@@ -2,7 +2,7 @@ import pymongo
 import pandas as pd
 
 if __name__ == '__main__':
-    charter2019_df = pd.read_csv('./schools/spiders/charter_school_URLs_2019.tsv', sep='\t')
+    charter2019_df = pd.read_csv('./scrapy/schools/schools/spiders/charter_school_URLs_2019.tsv', sep='\t')
     print(charter2019_df, 6)
     
     client = pymongo.MongoClient('mongodb://localhost:27000',
