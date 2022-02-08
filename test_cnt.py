@@ -34,5 +34,6 @@ if __name__ == '__main__':
     
     # check what urls have not been scrpaed
     remaining_domain = list(set(domain_2019) - set(db_url_domain))
-    print(len(list(set(domain_2019))))
-    print(len(remaining_domain))
+    #print(len(list(set(domain_2019)))) # the number of unique urls in charter school 2019 -- 5624
+    print(f"The number of urls which have not been scraped: {len(remaining_domain)}") # the number of urls which have not been scraped -- 4784
+
