@@ -178,7 +178,6 @@ class CharterSchoolSpider(CrawlSpider):
             Nothing is returned. However, start_urls,
             allowed_domains, and domain_to_id are initialized.
         """
-                
         if not school_list:
             return
         if isinstance(school_list, pd.DataFrame):
@@ -201,7 +200,6 @@ class CharterSchoolSpider(CrawlSpider):
                 
                 print(raw_row)
                 school_id, url = raw_row
-
                 domain = self.get_domain(url, True)
                 # set instance attributes
                 self.start_urls.append(url)
