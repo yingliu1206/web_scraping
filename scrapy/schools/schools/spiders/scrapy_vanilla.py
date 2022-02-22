@@ -160,6 +160,24 @@ class CharterSchoolSpider(CrawlSpider):
                 callback=self.parse_items
 
     def init_from_school_list(self, school_list):
+        """
+        Generate's this spider's instance attributes
+        from the input school list, formatted as a CSV or TSV.
+        
+        School List's format:
+        1. The first row is meta data that is ignored.
+        2. Rows in the csv are 1d arrays with one element.
+        ex: row == ['3.70014E+11,http://www.charlottesecondary.org/'].
+        
+        Note: start_requests() isn't used since it doesn't work
+        well with CrawlSpider Rules.
+        
+        Args:
+            school_list: Is the path string to this file.
+        Returns:
+            Nothing is returned. However, start_urls,
+            allowed_domains, and domain_to_id are initialized.
+        """
         if not school_list:
             return
         if isinstance(school_list, pd.DataFrame):
@@ -182,6 +200,7 @@ class CharterSchoolSpider(CrawlSpider):
                 
                 print(raw_row)
                 school_id, url = raw_row
+
                 domain = self.get_domain(url, True)
                 # set instance attributes
                 self.start_urls.append(url)
