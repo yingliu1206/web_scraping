@@ -268,6 +268,7 @@ class CharterSchoolSpider(CrawlSpider):
         https://stackoverflow.com/questions/699468/remove-html-tags-not-on-an-allowed-list-from-a-python-string/812785#812785
         Especially consider: `from lxml.html.clean import clean_html`
         """
+                
         if 'text/html' not in str(response.headers['Content-Type']):
             print("Response is not HTML text. Cannot extract text")
             return ''
