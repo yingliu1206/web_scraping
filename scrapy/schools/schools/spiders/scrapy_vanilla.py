@@ -1,8 +1,6 @@
 """
 Iterate over a CSV of URLs, recursively gather their within-domain links, parse the text of each page, and save to file
-
 CSV is expected to be structured with a school ID (called NCES school number of NCESSCH) and URL like so:
-
 |               NCESSCH | URL_2019                                                 |
 |----------------------:|:---------------------------------------------------------|
 |   1221763800065630210 | http://www.charlottesecondary.org/                       |
@@ -10,7 +8,6 @@ CSV is expected to be structured with a school ID (called NCES school number of 
 |   1232324303569510400 | http://www.socratesacademy.us/                           |
 |   1226732686900957185 | https://ggcs.cyberschool.com/                            |
 |   1225558292157620224 | http://www.emmajewelcharter.com/pages/Emma_Jewel_Charter |
-
 USAGE
     Pass in the start_urls from a a csv file.
     For example, within web_scraping/scrapy/schools/school, run:
@@ -26,19 +23,16 @@ USAGE
     
     NOTE: -o will APPEND output. This can be misleading(!) when debugging since the output
           file may contain more than just the most recent output.
-
     # Run spider with logging, and append to an output JSON file
     scrapy runspider generic.py \
         -L WARNING \
         -o school_output_test.json \
         -a input=test_urls.csv
-
     # Run spider in the background with `nohup`
     nohup scrapy runspider generic.py \
         -L WARNING \
         -o school_output_test.json \
         -a input=test_urls.csv &
-
 TODO
     - Indicate failed responses -- currently it simply does not append to output
     - Implement middleware for backup crawling of failed cases
@@ -119,12 +113,10 @@ class CharterSchoolSpider(CrawlSpider):
         - start_urls:
             Used by scrapy.spiders.Spider. A list of URLs where the
             spider will begin to crawl.
-
         - allowed_domains:
             Used by scrapy.spiders.Spider. An optional list of
             strings containing domains that this spider is allowed
             to crawl.
-
         - domain_to_id:
             A custom attribute used to map a string domain to
             a number representing the school id defined by
@@ -160,12 +152,8 @@ class CharterSchoolSpider(CrawlSpider):
         yield item
         # Will this be recursive for all of eternity?
         if 'text/html' in str(response.headers['Content-Type']):
-            yield from response.follow_all(
-                css="a[href]" \
-                    + ":not([href^='javascript:'])" \
-                    + ":not([href^='tel:'])" \
-                    + ":not([href^='mailto:'])",
-                callback=self.parse_items
+            for href in response.xpath('//a/@href').getall():
+                yield Request(response.urljoin(href), self.parse_items)
 
     def init_from_school_list(self, school_list):
         """
@@ -437,13 +425,11 @@ class CharterSchoolSpider(CrawlSpider):
             os.mkdir("files" + "/" + base_url)
             
         with open(txt_file_name, "w") as f:
-
             f.write("Base URL: " + base_url)
             f.write("\n")
             f.write("Parent URL: " + parent_url)
             f.write("\n")
             f.write("File URL: " + response_href.url.upper())
-
             f.write("\n")
             f.write(extracted_data)
             f.write("\n\n")
