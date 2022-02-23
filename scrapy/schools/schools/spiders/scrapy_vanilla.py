@@ -53,7 +53,7 @@ from scrapy.spiders import Rule, CrawlSpider
 from scrapy.exceptions import NotSupported
 from scrapy.http import Request
 
-from items import CharterItem
+from schools.items import CharterItem
 
 # The following are required for parsing File text
 
@@ -133,7 +133,9 @@ class CharterSchoolSpider(CrawlSpider):
     # note: make sure we ignore robot.txt
     # Method for parsing items
     def parse_items(self, response):
-        
+        '''
+        parse items
+        '''
         item = CharterItem()
         item['url'] = response.url
         item['text'] = self.get_text(response)
