@@ -369,75 +369,75 @@ class CharterSchoolSpider(CrawlSpider):
             
 #         return file_urls, file_text
     
-    def parse_file(self, href, parent_url):
-        """
-        Given the file's url and its parent url, 
-        scrape the text from the file and return it. 
-        This will also create a .txt file within the user's subdirectory.
-        At the top of this .txt file, you will also see the file's Base URL, Parent URL, and File URL. 
+#     def parse_file(self, href, parent_url):
+#         """
+#         Given the file's url and its parent url, 
+#         scrape the text from the file and return it. 
+#         This will also create a .txt file within the user's subdirectory.
+#         At the top of this .txt file, you will also see the file's Base URL, Parent URL, and File URL. 
         
-        Ex:
-        >>> parse_pdf('https://www.imagescape.com/media/uploads/zinnia/2018/08/20/sampletext.pdf',
-                'https://www.imagescape.com/media/uploads/zinnia/2018/08/20/scrape_me.html')
+#         Ex:
+#         >>> parse_pdf('https://www.imagescape.com/media/uploads/zinnia/2018/08/20/sampletext.pdf',
+#                 'https://www.imagescape.com/media/uploads/zinnia/2018/08/20/scrape_me.html')
             
-            Base URL: imagescape.com
-            Parent URL: https://www.imagescape.com/media/uploads/zinnia/2018/08/20/scrape_me.html
-            File URL: https://www.imagescape.com/media/uploads/zinnia/2018/08/20/sampletext.pdf
-            "This is a caterwauling test of a transcendental PDF."
+#             Base URL: imagescape.com
+#             Parent URL: https://www.imagescape.com/media/uploads/zinnia/2018/08/20/scrape_me.html
+#             File URL: https://www.imagescape.com/media/uploads/zinnia/2018/08/20/sampletext.pdf
+#             "This is a caterwauling test of a transcendental PDF."
         
-        """
+#         """
 
-        # If the url is not part of the domain being scraped ("something.com/this.pdf" vs "someother.org/"), don't include it
-        # This logic is very basic and a starting point for further development of ensuring that we are still on the same page. TODO: improve domain splitting/comparing logic to avoid hitting external sites
-        if not str(href).startswith('/') and str(parent_url).split(".")[1] != str(href).split(".")[1]:
-            print("Danger! File source is from an external site. Source: " + str(href) + " \n\tand parent url: " + str(parent_url))
-            return ''
-        # Parse text from file and add to .txt file AND item
-        print("Requesting the file data from its source: " + str(href) + " \n\tat the parent url: " + str(parent_url))
-        response_href = requests.get(href)
-        print("Retrieved file data from response")
+#         # If the url is not part of the domain being scraped ("something.com/this.pdf" vs "someother.org/"), don't include it
+#         # This logic is very basic and a starting point for further development of ensuring that we are still on the same page. TODO: improve domain splitting/comparing logic to avoid hitting external sites
+#         if not str(href).startswith('/') and str(parent_url).split(".")[1] != str(href).split(".")[1]:
+#             print("Danger! File source is from an external site. Source: " + str(href) + " \n\tand parent url: " + str(parent_url))
+#             return ''
+#         # Parse text from file and add to .txt file AND item
+#         print("Requesting the file data from its source: " + str(href) + " \n\tat the parent url: " + str(parent_url))
+#         response_href = requests.get(href)
+#         print("Retrieved file data from response")
 
-        extension = list(filter(lambda x: response_href.url.lower().endswith(x), TEXTRACT_EXTENSIONS))[0]
+#         extension = list(filter(lambda x: response_href.url.lower().endswith(x), TEXTRACT_EXTENSIONS))[0]
       
-        print("Extension found: " + str(extension))
-        print("Pulling file data into tempfile")
-        tempfile = NamedTemporaryFile(suffix=extension)
-        tempfile.write(response_href.content)
-        tempfile.flush()
+#         print("Extension found: " + str(extension))
+#         print("Pulling file data into tempfile")
+#         tempfile = NamedTemporaryFile(suffix=extension)
+#         tempfile.write(response_href.content)
+#         tempfile.flush()
 
-        print("Processing file with Textract...")
-        extracted_data = textract.process(tempfile.name)
-        print("Data encoding = " + str(chardet.detect(extracted_data)['encoding']))
-        print("Decoding with utf-8")
-        # Should remove try/catch flow control!
-        try:
-            extracted_data = extracted_data.decode('utf-8')
-        except:
-            print("Error decoding extracted data")
-            tempfile.close()
-            return ''
-        extracted_data = CONTROL_CHAR_RE.sub('', extracted_data)
-        tempfile.close()
-        base_url = self.get_domain(parent_url)
-        print("Text extracted sucessfully!")
-        return extracted_data
-        '''
-        # Create a filepath for the .txt file
-        txt_file_name = "files" + "/" + base_url + "/" + os.path.basename(urlparse(href).path).replace(extension, ".txt")
+#         print("Processing file with Textract...")
+#         extracted_data = textract.process(tempfile.name)
+#         print("Data encoding = " + str(chardet.detect(extracted_data)['encoding']))
+#         print("Decoding with utf-8")
+#         # Should remove try/catch flow control!
+#         try:
+#             extracted_data = extracted_data.decode('utf-8')
+#         except:
+#             print("Error decoding extracted data")
+#             tempfile.close()
+#             return ''
+#         extracted_data = CONTROL_CHAR_RE.sub('', extracted_data)
+#         tempfile.close()
+#         base_url = self.get_domain(parent_url)
+#         print("Text extracted sucessfully!")
+#         return extracted_data
+#         '''
+#         # Create a filepath for the .txt file
+#         txt_file_name = "files" + "/" + base_url + "/" + os.path.basename(urlparse(href).path).replace(extension, ".txt")
         
-        # If subdirectory does not exist yet, create it
-        if not os.path.isdir("files" + "/" + base_url):
-            os.mkdir("files" + "/" + base_url)
+#         # If subdirectory does not exist yet, create it
+#         if not os.path.isdir("files" + "/" + base_url):
+#             os.mkdir("files" + "/" + base_url)
             
-        with open(txt_file_name, "w") as f:
-            f.write("Base URL: " + base_url)
-            f.write("\n")
-            f.write("Parent URL: " + parent_url)
-            f.write("\n")
-            f.write("File URL: " + response_href.url.upper())
-            f.write("\n")
-            f.write(extracted_data)
-            f.write("\n\n")
+#         with open(txt_file_name, "w") as f:
+#             f.write("Base URL: " + base_url)
+#             f.write("\n")
+#             f.write("Parent URL: " + parent_url)
+#             f.write("\n")
+#             f.write("File URL: " + response_href.url.upper())
+#             f.write("\n")
+#             f.write(extracted_data)
+#             f.write("\n\n")
             
-        return extracted_data 
-    '''
+#         return extracted_data 
+#     '''
