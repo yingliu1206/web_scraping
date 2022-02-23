@@ -158,6 +158,7 @@ class CharterSchoolSpider(CrawlSpider):
                     + ":not([href^='tel:'])" \
                     + ":not([href^='mailto:'])",
                 callback=self.parse_items
+            )
 
     def init_from_school_list(self, school_list):
         """
