@@ -55,9 +55,9 @@ if __name__ == '__main__':
     sort_og_domain = sorted(og_domain)
     sort_scraped_domain = sorted(scraped_domain)
 
-    # print(sort_og_domain)
-    # print(sort_scraped_domain)
-    # print(sort_remaining_domain)
+    print(sort_og_domain)
+    print(sort_scraped_domain)
+    print(sort_remaining_domain)
 
     # 4. Outputs
     print(f"Unique Original URLs #: {len(list(set(sort_og_domain)))}") # the number of unique urls in charter school 2019 -- 5624
