@@ -56,7 +56,7 @@ if __name__ == '__main__':
     sort_scraped_domain = sorted(scraped_domain)
 
 #     print(sort_og_domain)
-    print(sort_scraped_domain[50:100])
+    print(sort_scraped_domain[100:150])
 #     print(sort_remaining_domain)
 
     # 4. Outputs
