@@ -107,7 +107,7 @@ ITEM_PIPELINES = {
     'schools.pipelines.MongoDBTextPipeline': 300
 }
 
-MONGODB_DB = 'schoolSpider'
+MONGODB_DB = 'schoolSpider_public'
 
 MONGODB_COLLECTION_IMAGES = "images"
 MONGODB_COLLECTION_FILES = "files"
@@ -124,7 +124,7 @@ MONGO_REPLICATION = False
 
 MONGO_REPLICA_SET = 'mongoCluster' # replica set name if used
 
-MONGO_DATABASE = 'schoolSpider' # database (not collection) name
+MONGO_DATABASE = 'schoolSpider_public' # database (not collection) name
 
 MONGO_USERNAME = 'admin' # could probably make a "schoolCrawler" user to use here instead
 
