@@ -12,7 +12,7 @@ import execute_scrapy_from_file
 
 
 
-INPUT_FILENAME = './schools/spiders/charter_school_URLs_2019.tsv'
+INPUT_FILENAME = './schools/spiders/public_school_URLs_2021.tsv'
 
 SPLIT_PREFIX = 'split_urls'
 
