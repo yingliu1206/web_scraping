@@ -11,7 +11,7 @@ if __name__ == '__main__':
 
     # 1. Initial URLs
     # Read in the charter school URLs as a data frame
-    original_charter_df = pd.read_csv('./schools/schools/spiders/charter_school_URLs_2019.tsv', sep='\t')
+    original_charter_df = pd.read_csv('./schools/spiders/charter_school_URLs_2019.tsv', sep='\t')
     #print(original_charter_df.head())
 
     # # (Test) Read in the Scraped URLs as a data frame as well
