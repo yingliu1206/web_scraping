@@ -45,7 +45,7 @@ if __name__ == '__main__':
     scraped_domain = []
     for document in cursor:
         domain = tldextract.extract(document['url'])
-        scraped_domain.append(domain)
+        scraped_domain.append(domain.domain)
 
     # 3. Check what urls have not been scraped
     remaining_domain = list(set(og_domain) - set(scraped_domain))
